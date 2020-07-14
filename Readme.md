@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Артем](https://up.htmlacademy.ru/adaptive/20/user/1117861).
-* Наставник: `Неизвестно`.
+* Наставник: `Дмитрий Могиль`.
 
 ---
 
