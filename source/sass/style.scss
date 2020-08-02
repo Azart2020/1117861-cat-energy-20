@@ -1,1 +1,104 @@
-// Начните писать стили здесь
+:root {
+  --basic-black: #000000;
+  --basic-light-black: #111111;
+
+  --basic-green: #68B738;
+  --basic-light-green: #5EAA2F;
+
+  --basic-gray: #f2f2f2;
+  --basic-light-gray: #ebebeb;
+  --basic-soft-gray: #cdcdcd;
+  --basic-darkl-gray: #666666;
+  --basic-special-gray: #444444;
+  --basic-darkest-gray: #222222;
+  --basic-silver: #d9d9d9;
+  --basic-light-silver: #eaeaea;
+  --basic-soft-silver: #e6e6e6;
+
+  --basic-pink: #FF8282;
+
+  --basic-background-gray: #E5E5E5;
+
+  --basic-white: #ffffff;
+
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  width: 320px;
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: var(--basic-special-gray);
+  background-color: var(--basic-dark-white);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page {
+  height: 100%;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+@import "blocks/page.scss";
+@import "blocks/page-header.scss";
+@import "blocks/header.scss";
+@import "blocks/advantages.scss";
+@import "blocks/button.scss";
+@import "blocks/contacts.scss";
+@import "blocks/copyright.scss";
+@import "blocks/live-example.scss";
+@import "blocks/logo-title.scss";
+@import "blocks/main-contacts.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/page-advantages.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/page-promo.scss";
+@import "blocks/page-program.scss";
+@import "blocks/program.scss";
+@import "blocks/site-list.scss";
+@import "blocks/social.scss";
+@import "blocks/scale.scss";
+@import "blocks/footer.scss";
+@import "blocks/catalog.scss";
+@import "blocks/product-card.scss";
+@import "blocks/card-more.scss";
+@import "blocks/catalog-additional.scss";
+@import "blocks/additional-card.scss";
+@import "blocks/promo-gift.scss";
+@import "blocks/selection-program.scss";

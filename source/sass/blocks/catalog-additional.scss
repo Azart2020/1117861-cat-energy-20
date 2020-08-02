@@ -1,0 +1,26 @@
+.catalog-additional {
+  background-color: var(--basic-white);
+  padding: 20px;
+}
+
+.catalog-additional__title {
+  padding-bottom: 20px;
+  margin: 0;
+
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 24px;
+
+
+  color: var(--basic-black);
+
+}
+
+.catalog-additional__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid var(--basic-soft-gray);
+}

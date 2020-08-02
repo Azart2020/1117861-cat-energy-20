@@ -1,0 +1,38 @@
+.page-promo {
+  background-color: var(--basic-white);
+  background-image:
+    url("../img/index-can-mobile@1x.png"),
+    url("../img/index-background-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom 25px center, top center;
+  height: 480px;
+  padding: 0 20px;
+  position: relative;
+}
+
+.page-promo__title {
+  padding-top: 27px;
+  padding-bottom: 25px;
+  margin: 0;
+  color: var(--basic-white);
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+
+  text-align: center;
+}
+
+.page-promo__slogan {
+  color: var(--basic-white);
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+}

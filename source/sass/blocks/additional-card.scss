@@ -1,0 +1,31 @@
+.additional-card {
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--basic-soft-gray);
+}
+
+.additional-card__title {
+
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 16px;
+
+  text-align: left;
+  text-transform: uppercase;
+
+  color: var(--basic-darkest-gray);
+}
+
+.additional-card__table {
+  padding-bottom: 15px;
+}
+
+.additional-card__table {
+  width: 100%;
+
+}
+
+.additional-card__price {
+  text-align: right;
+}

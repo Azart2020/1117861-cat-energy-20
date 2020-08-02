@@ -1,0 +1,52 @@
+.program {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+
+.program__title {
+  margin: 0;
+
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 37px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+
+}
+
+.program__item {
+  padding: 20px;
+  background-color: var(--basic-gray);
+  margin-bottom: 20px;
+}
+
+.program__item--slim {
+  background-image: url("../img/icon-cat_slim.svg");
+  background-repeat: no-repeat;
+  background-size: 50px 53px;
+  background-position: 5px 10px;
+}
+
+.program__item--mass {
+  background-image: url("../img/icon-cat_pro.svg");
+  background-repeat: no-repeat;
+  background-size: 67px 50px;
+  background-position: 5px 10px;
+}
+
+.program__description {
+  border-bottom: 1px solid var(--basic-silver);
+  padding-bottom: 20px;
+}
+
+.program__link {
+  text-transform: uppercase;
+  color: var(--basic-black);
+}
