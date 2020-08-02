@@ -8,7 +8,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 0;
-  font-family:"Oswald";
+  font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
@@ -16,7 +16,7 @@
 
   text-align: left;
 
-  color: #000000;
+  color: var(--bacic-black);
 }
 
 .live-example__description {
@@ -35,7 +35,7 @@
   width: 124px;
   height: 56px;
   padding: 14px 20px;
-  font-family: "Oswald";
+  font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -50,14 +50,12 @@
   border-radius: 3px;
 }
 
-
-
 .live-example__note {
 
   display: block;
   width: 87px;
   background-color: var(--basic-light-silver);
-  font-family: Arial;
+  font-family: "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -86,7 +84,7 @@
 
   margin: 0;
   padding-bottom: 20px;
-  font-family: "Oswald";
+  font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
