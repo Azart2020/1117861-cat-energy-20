@@ -1,0 +1,16 @@
+.footer {
+  background-color: var(--basic-light-silver);
+  width: 320px;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.footer__logo-title {
+  padding-top: 39px;
+  padding-bottom: 39px;
+  margin: 0 auto;
+}

@@ -1,0 +1,53 @@
+.button {
+  color: var(--basic-white);
+  background-color: var(--basic-green);
+  text-align: center;
+  display: block;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.button--choose-program {
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  width: 280px;
+  height: 40px;
+
+  padding: 7px 44px;
+
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.button--order {
+  min-width: 280px;
+  min-height: 40px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 32px;
+
+  color: var(--basic-white);
+}
+
+.button--show {
+
+  min-width: 279px;
+  min-height: 40px;
+
+  background: var(--basic-gray);
+
+
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 38px;
+
+  color: var(--basic-special-gray);
+}

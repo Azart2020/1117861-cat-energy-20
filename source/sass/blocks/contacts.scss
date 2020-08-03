@@ -1,0 +1,36 @@
+.contacts__wrapper {
+  display: flex;
+  flex-basis: auto;
+  margin-bottom: 20px;
+}
+
+.contacts__description {
+  flex-grow: 1;
+
+  margin: 0;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 18px;
+
+  text-transform: uppercase;
+
+  color: var(--basic-light-black);
+}
+
+.contacts__address {
+  flex-grow: 1;
+
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: var(--basic-special-gray);
+}
+
+.contacts__map {
+  min-height: 362px;
+}

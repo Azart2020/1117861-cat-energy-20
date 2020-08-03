@@ -1,0 +1,22 @@
+.catalog {
+  background-color: var(--basic-white);
+}
+
+.catalog__title {
+  padding: 20px 0;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  margin: 0;
+
+  color: var(--basic-black);
+}
+
+.catalog__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

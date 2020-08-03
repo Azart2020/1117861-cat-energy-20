@@ -1,0 +1,17 @@
+.scale {
+  display: flex;
+  width: 228px;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.scale__bar {
+  border: 1px solid var(--basic-white);
+  border-radius: 6px;
+  width: 84px;
+  height: 14px;
+  background-color: var(--basic-white);
+}
