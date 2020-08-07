@@ -1,7 +1,6 @@
 .page-promo {
   background-color: var(--basic-white);
-  background-image:
-    url("../img/index-can-mobile@1x.png"),
+  background-image: url("../img/index-can-mobile@1x.png"),
     url("../img/index-background-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-position: bottom 25px center, top center;
@@ -11,8 +10,7 @@
 
   @media (min-width: $tablet-width) {
     min-height: 750px;
-    background-image:
-      url("../img/index-can-tablet@1x.jpg");
+    background-image: url("../img/index-can-tablet@1x.jpg");
     background-position: bottom 25px center, top center;
   }
 }
