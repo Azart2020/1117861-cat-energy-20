@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Cat-Energy</title>
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
@@ -47,7 +48,7 @@
     </section>
     <section class="page-program">
       <h2 class="visually-hidden"> Наши программы</h2>
-      <ul class="page-program-list program">
+      <ul class="page-program__list program">
         <li class="program__item program__item--slim">
           <h3 class="program__title">Похудение</h3>
           <p class="program__description">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
@@ -80,15 +81,22 @@
       </div>
     </section>
     <section class="live-example">
-      <h2 class="live-example__title">Живой пример</h2>
-      <p class="live-example__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный езультат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
       <div class="live-example__wrapper">
-        <span class="live-example__numbers live-example__numbers--weight">5 Кг</span>
-        <span class="live-example__note live-example__note--weight"> снижение веса</span>
-        <span class="live-example__numbers live-example__numbers--date">60 Дней</span>
-        <span class="live-example__note live-example__note--date"> затрачено времени</span>
+        <h2 class="live-example__title">Живой пример</h2>
+        <p class="live-example__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный езультат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
+        <div class="live-example__block">
+        <div class="live-example__left-block">
+          <span class="live-example__numbers live-example__numbers--weight">5 Кг</span>
+          <span class="live-example__note live-example__note--weight"> снижение веса</span>
+        </div>
+        <div class="live-example__left-block">
+          <span class="live-example__numbers live-example__numbers--date">60 Дней</span>
+          <span class="live-example__note live-example__note--date"> затрачено времени</span>
+        </div>
       </div>
-      <p class="live-example__total">Затраты на питание: 15 000 РУБ. </p>
+        <p class="live-example__total">Затраты на питание: 15 000 РУБ. </p>
+      </div>
+      <div class="live-example__wrapper-interactive">
       <img class="live-example__boris live-example__boris--before" src="img/before-mobile@1x.png" alt="Борис до похудения" width="311" height="232">
       <img class="live-example__boris live-example__boris--after" src="img/after-mobile@1x.png" alt="Борис после похудения" width="251" height="240">
       <div class="live-example__scale scale">
@@ -96,6 +104,7 @@
         <div class="scale__bar"></div>
         <span class="scale__after">Стало</span>
       </div>
+    </div>
     </section>
     <section class="main-contacts contacts">
       <div class="contacts__wrapper">
