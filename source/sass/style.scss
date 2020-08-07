@@ -53,6 +53,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -69,7 +70,6 @@ input[type="radio"].visually-hidden {
 }
 
 @import "variables.scss";
-
 @import "blocks/page.scss";
 @import "blocks/page-header.scss";
 @import "blocks/header.scss";
