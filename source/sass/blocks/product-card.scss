@@ -6,6 +6,13 @@
 
 .product-card__wrapper {
   display: flex;
+  background-color: var(--basic-gray);
+
+  @media (min-width: $tablet-width) {
+
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .product-card__title {

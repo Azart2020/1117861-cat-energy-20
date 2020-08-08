@@ -4,7 +4,6 @@
   padding: 0;
 }
 
-
 .program__title {
   margin: 0;
 
@@ -24,6 +23,14 @@
   padding: 20px;
   background-color: var(--basic-gray);
   margin-bottom: 20px;
+
+  @media (min-width: $tablet-width) {
+    padding-right: 300px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 570px;
+  }
 }
 
 .program__item--slim {
@@ -31,6 +38,13 @@
   background-repeat: no-repeat;
   background-size: 50px 53px;
   background-position: 5px 10px;
+
+  @media (min-width: $tablet-width) {
+
+    background-size: 200px 211px;
+
+    background-position: right top;
+  }
 }
 
 .program__item--mass {
@@ -38,6 +52,12 @@
   background-repeat: no-repeat;
   background-size: 67px 50px;
   background-position: 5px 10px;
+
+  @media (min-width: $tablet-width) {
+
+    background-size: 268px 200px;
+    background-position: right top;
+  }
 }
 
 .program__description {
