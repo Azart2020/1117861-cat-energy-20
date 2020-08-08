@@ -4,8 +4,6 @@
   padding: 0;
   text-transform: uppercase;
   text-align: center;
-  display: flex;
-  flex-direction: column;
   border-bottom: 1px solid var(--basic-light-gray);
 }
 
@@ -15,8 +13,12 @@
   border-top: 1px solid var(--basic-soft-silver);
   min-height: 66px;
   vertical-align: middle;
+}
 
-  a {
-    color: var(--basic-black);
+.site-list__link {
+  color: var(--basic-black);
+
+  @media (min-width: $desktop-width) {
+    color: var(--basic-white);
   }
 }

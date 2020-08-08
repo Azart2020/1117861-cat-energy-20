@@ -3,3 +3,10 @@
   padding: 20px 20px;
   background-color: var(--basic-white);
 }
+
+.page-program__list {
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: space-between;
+  }
+}

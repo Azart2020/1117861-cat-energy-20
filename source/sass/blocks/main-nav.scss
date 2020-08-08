@@ -1,3 +1,21 @@
 .main-nav {
   background-color: var(--basic-white);
 }
+
+.main-nav__list {
+
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    width: 440px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 478px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
