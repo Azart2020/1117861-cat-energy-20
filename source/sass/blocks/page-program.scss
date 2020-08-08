@@ -2,6 +2,11 @@
 
   padding: 20px 20px;
   background-color: var(--basic-white);
+  @media (min-width: $tablet-width) {
+    padding: 0 30px;}
+  @media (min-width: $desktop-width) {
+     padding: 0 110px;
+  }
 }
 
 .page-program__list {

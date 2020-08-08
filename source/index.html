@@ -9,12 +9,12 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body class="page">
+<body class="page page--index">
   <header class="page__header header">
     <a class="header__logo">
       <img src="img/logo-mobile.svg" width="191" height="38" alt="Cat-Energy">
     </a>
-    <nav class="header__main-nav main-nav">
+    <nav class="header__main-nav main-nav  main-nav--opened  main-nav--nojs">
       <div class="main-nav__wrapper">
         <ul class="main-nav__list site-list">
           <li class="site-list__item site-list__item--active">
@@ -22,7 +22,7 @@
               Главная
             </a>
           </li>
-          <li class="site-list__item">
+          <li class="site-list__item ">
             <a class="site-list__link" href="catalog.html">
               Каталог продукции
             </a>
@@ -34,7 +34,7 @@
           </li>
         </ul>
       </div>
-      <button class="main-nav__toggle visually-hidden" type="button">
+      <button class="main-nav__toggle" type="button">
         <span class="visually-hidden">Открыть меню</span>
       </button>
     </nav>
@@ -66,16 +66,21 @@
       <div class="page-advatages__wrapper">
         <ul class="page-advantages__list advantages">
           <li class="advantages__item advantages__item--leaf ">
-            <p class="advantages-description">Функциональное питание содержит только полезные питательные вещества.</p>
+            <p class="advantages-description">Функциональное питание содержит только полезные питательные вещества.
+            </p>
           </li>
           <li class="advantages__item advantages__item--powder">
-            <p class="advantages-description">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.</p>
+            <p class="advantages-description">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.
+              <span class="advantages__number">2</span>
+            </p>
           </li>
           <li class="advantages__item advantages__item--cutlery">
-            <p class="advantages-description">Замените один-два приема обычной еды на наше функциональное питание.</p>
+            <p class="advantages-description">Замените один-два приема обычной еды на наше функциональное питание.
+              <span class="advantages__number">3</span></p>
           </li>
           <li class="advantages__item advantages__item--weigher">
-            <p class="advantages-description">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!</p>
+            <p class="advantages-description">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!
+              <span class="advantages__number">4</span></p>
           </li>
         </ul>
       </div>
@@ -85,26 +90,29 @@
         <h2 class="live-example__title">Живой пример</h2>
         <p class="live-example__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный езультат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
         <div class="live-example__block">
-        <div class="live-example__left-block">
-          <span class="live-example__numbers live-example__numbers--weight">5 Кг</span>
-          <span class="live-example__note live-example__note--weight"> снижение веса</span>
-        </div>
-        <div class="live-example__left-block">
-          <span class="live-example__numbers live-example__numbers--date">60 Дней</span>
-          <span class="live-example__note live-example__note--date"> затрачено времени</span>
-        </div>
+          <div class="live-example__left-block">
+            <span class="live-example__numbers live-example__numbers--weight">5 Кг</span>
+            <span class="live-example__note live-example__note--weight"> снижение веса</span>
+          </div>
+          <div class="live-example__right-block">
+            <span class="live-example__numbers live-example__numbers--date">60 Дней</span>
+            <span class="live-example__note live-example__note--date"> затрачено времени</span>
+          </div>
+        <p class="live-example__total">
+          <span class="live-example__total-info">Затраты на питание:</span>
+          <span class="live-example__total-price">15 000 РУБ.</span>
+        </p>
       </div>
-        <p class="live-example__total">Затраты на питание: 15 000 РУБ. </p>
       </div>
       <div class="live-example__wrapper-interactive">
-      <img class="live-example__boris live-example__boris--before" src="img/before-mobile@1x.png" alt="Борис до похудения" width="311" height="232">
-      <img class="live-example__boris live-example__boris--after" src="img/after-mobile@1x.png" alt="Борис после похудения" width="251" height="240">
-      <div class="live-example__scale scale">
-        <span class="scale__before">Было</span>
-        <div class="scale__bar"></div>
-        <span class="scale__after">Стало</span>
+        <img class="live-example__boris live-example__boris--before" src="img/before-mobile@1x.png" alt="Борис до похудения" width="311" height="232">
+        <img class="live-example__boris live-example__boris--after" src="img/after-mobile@1x.png" alt="Борис после похудения" width="251" height="240">
+        <div class="live-example__scale scale">
+          <span class="scale__before">Было</span>
+          <div class="scale__bar"></div>
+          <span class="scale__after">Стало</span>
+        </div>
       </div>
-    </div>
     </section>
     <section class="main-contacts contacts">
       <div class="contacts__wrapper">
@@ -165,6 +173,7 @@
       </div>
     </div>
   </footer>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

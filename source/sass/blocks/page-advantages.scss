@@ -3,6 +3,11 @@
   padding-bottom: 20px;
   background-color: var(--basic-white);
   margin: 0;
+  @media (min-width: $tablet-width) {
+    padding: 0 30px;}
+  @media (min-width: $desktop-width) {
+     padding: 0 110px;
+  }
 }
 
 .page-advantages__title {
@@ -22,13 +27,15 @@
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 40px;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
 }

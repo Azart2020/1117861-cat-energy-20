@@ -11,23 +11,54 @@
   background-size: 60px 60px;
   padding-left: 90px;
   background-repeat: no-repeat;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+    margin-right: 40px;
+    max-width: 230px;
+    min-height: 280px;
+    padding: 0;
+  }
 }
 
 .advantages__item--leaf {
   background-image: url("../img/advantage-leaf@1xg.svg");
-  background-repeat: no-repeat;
+
+  @media (min-width: $tablet-width) {
+    background-image: url("../img/program-number1.svg"), url("../img/advantage-leaf@1xg.svg");
+    background-size: 112px 205px, 80px 80px;
+    background-position: right, top 50px left;
+  }
 }
 
 .advantages__item--powder {
   background-image: url("../img/advantage-powder@1xg.svg");
+
+  @media (min-width: $tablet-width) {
+    background-image: url("../img/program-number2.svg"), url("../img/advantage-powder@1xg.svg");
+    background-size: 134px 205px, 80px 80px;
+    background-position: right, top 50px left;
+  }
 }
 
 .advantages__item--cutlery {
   background-image: url("../img/advantage-dining@1xg.svg");
+
+  @media (min-width: $tablet-width) {
+    background-image: url("../img/program-number3.svg"), url("../img/advantage-dining@1xg.svg");
+    background-size: 134px 205px, 80px 80px;
+    background-position: right, top 50px left;
+  }
 }
 
 .advantages__item--weigher {
   background-image: url("../img/advantage-clock@1xg.svg");
+
+  @media (min-width: $tablet-width) {
+    background-image: url("../img/program-number4.svg"), url("../img/advantage-clock@1xg.svg");
+    background-size: 136px 205px, 80px 80px;
+    background-position: right, top 50px left;;
+  }
 }
 
 .advantages-description {
@@ -39,4 +70,15 @@
   line-height: 18px;
 
   color: var(--basic-special-gray);
+
+  @media (min-width: $tablet-width) {
+    padding-top: 140px;
+    padding-right: 100px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+  }
 }

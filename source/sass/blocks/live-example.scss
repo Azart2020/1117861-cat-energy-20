@@ -5,11 +5,15 @@
 
   @media (min-width: $tablet-width) {
     background-color: var(--basic-white);
+    padding: 0 30px;
+    border-top: 1px solid var(--basic-soft-silver);
   }
 
   @media (min-width: $desktop-width) {
+    background-color: var(--basic-gray);
     display: flex;
     justify-content: space-between;
+    padding: 0 110px;
   }
 }
 
@@ -26,21 +30,33 @@
   text-align: left;
 
   color: var(--bacic-black);
+
+  @media (min-width: $tablet-width) {
+    font-family: "Oswald", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 60px;
+  }
 }
 
 .live-example__description {
   margin: 0;
   padding-bottom: 20px;
+
+  @media (min-width: $tablet-width) {
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 .live-example__wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
-  @media (min-width: $tablet-width) {
-    display: flex;
-  }
 
   @media (min-width: $desktop-width) {
     display: flex;
@@ -63,13 +79,23 @@
 }
 
 .live-example__block {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  @media (min-width: $tablet-width) {
+    width: 436px;
+    flex-direction: row;
+  }
 }
 
 .live-example__left-block {
   position: relative;
+  margin-right: 30px;
+
+
+  @media (min-width: $tablet-width) {
+    margin-right: 42px;
+  }
 }
 
 .live-example__right-block {
@@ -115,20 +141,24 @@
   @media (min-width: $tablet-width) {
     background-color: var(--basic-white);
   }
+  @media (min-width: $desktop-width) {
+     background-color: var(--basic-gray);
+  }
+
 }
 
 .live-example__note--weight {
   padding: 0 3px;
   position: absolute;
-  top: 35px;
-  left: 0;
+  top: 44px;
+  left: 20px;
 }
 
 .live-example__note--date {
   position: absolute;
 
-  top: 37px;
-  left: 21px;
+  top: 44px;
+  left: 20px;
 }
 
 .live-example__total {
@@ -145,6 +175,24 @@
   text-transform: uppercase;
 
   color: var(--basic-black);
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0;
+    margin-left: auto;
+  }
+
+  @media (min-width: $tablet-width) {
+    width: 436px;
+    flex-direction: row;
+  }
+}
+.live-example__total-info{
+  @media (min-width: $tablet-width) {
+    margin-right: 63px;
+  }
 }
 
 .live-example__boris {

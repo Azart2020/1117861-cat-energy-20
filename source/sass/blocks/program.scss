@@ -17,15 +17,27 @@
   text-transform: uppercase;
 
   color: #000000;
+
+  @media (min-width: $tablet-width) {
+    text-align: left;
+    font-weight: 200;
+    font-size: 36px;
+    line-height: 36px;
+  }
 }
 
 .program__item {
   padding: 20px;
   background-color: var(--basic-gray);
   margin-bottom: 20px;
+  margin-top: 20px;
 
   @media (min-width: $tablet-width) {
-    padding-right: 300px;
+    padding: 77px 282px 53px 53px;
+    min-height: 372px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   @media (min-width: $desktop-width) {
@@ -43,7 +55,7 @@
 
     background-size: 200px 211px;
 
-    background-position: right top;
+    background-position: center right 35px;
   }
 }
 
@@ -56,16 +68,33 @@
   @media (min-width: $tablet-width) {
 
     background-size: 268px 200px;
-    background-position: right top;
+    background-position: center right 35px;
   }
 }
 
 .program__description {
   border-bottom: 1px solid var(--basic-silver);
   padding-bottom: 20px;
+
+  @media (min-width: $tablet-width) {
+    border: none;
+    margin: 40px 0;
+    padding: 0;
+    font-family: "Arial", Sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 .program__link {
   text-transform: uppercase;
   color: var(--basic-black);
+
+  @media (min-width: $tablet-width) {
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 30px;
+  }
 }

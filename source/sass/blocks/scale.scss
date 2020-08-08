@@ -14,4 +14,11 @@
   width: 84px;
   height: 14px;
   background-color: var(--basic-white);
+
+  @media (min-width: $tablet-width) {
+    width: 436px;
+    border: 1px solid var(--basic-soft-gray);
+    background-color: var(--basic-soft-gray);
+    margin: 0 10px;
+  }
 }
