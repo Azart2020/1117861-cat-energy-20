@@ -50,12 +50,11 @@
   @media (min-width: $tablet-width) {
     padding: 60px;
     text-align: left;
-
   }
 
   @media (min-width: $desktop-width) {
     padding: 20px;
-    font-family: Oswald;
+    font-family: "Oswald", "Arial", sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
@@ -77,12 +76,11 @@
   @media (min-width: $tablet-width) {
     padding: 60px;
     text-align: right;
-
   }
 
   @media (min-width: $desktop-width) {
     padding: 20px;
-    font-family: Arial;
+    font-family: "Arial", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;

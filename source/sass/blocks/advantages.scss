@@ -58,7 +58,6 @@
     background-image: url("../img/program-number4.svg"), url("../img/advantage-clock@1xg.svg");
     background-size: 136px 205px, 80px 80px;
     background-position: right, top 50px left;
-    ;
   }
 }
 
@@ -75,11 +74,10 @@
   @media (min-width: $tablet-width) {
     padding-top: 140px;
     padding-right: 100px;
-    font-family: Arial;
+    font-family: "Arial", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-
   }
 }
