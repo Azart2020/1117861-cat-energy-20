@@ -27,7 +27,7 @@
   }
 
   &:active {
-    color: transparentize(white, .7);
+    color: transparentize(white, 0.7);
     background-color: var(--basic-light-green);
   }
 
@@ -55,7 +55,7 @@
   }
 
   &:active {
-    color: transparentize(white, .7);
+    color: transparentize(white, 0.7);
     background-color: var(--basic-light-green);
   }
 
@@ -84,7 +84,7 @@
   }
 
   &:active {
-    color: transparentize(black, .7);
+    color: transparentize(black, 0.7);
     background-color: var(--basic-light-gray);
   }
 }
