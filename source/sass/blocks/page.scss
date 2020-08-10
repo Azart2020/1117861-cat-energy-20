@@ -2,7 +2,9 @@
   height: 100%;
   width: 320px;
   margin: 0 auto;
-  background-color: var(--basic-white);
+
+  background-color: var(--basic-background-gray);
+
 
   @media (min-width: $tablet-width) {
     width: $tablet-width;
@@ -13,12 +15,17 @@
   }
 }
 
-.page--index {
-  background-image: url("../img/index-background-desktop@1x.jpg");
-  z-index: 5;
-  background-repeat: no-repeat;
-  background-position: right 0;
-  background-color: var(--basic-white);
+.page__wrapper {
+
+  @media (min-width: $desktop-width) {
+    width: $desktop-width;
+
+    background-image: url("../img/index-background-desktop@1x.jpg");
+    z-index: 5;
+    background-repeat: no-repeat;
+    background-position: right 0;
+    background-color: var(--basic-white);
+  }
 }
 
 .page__header {

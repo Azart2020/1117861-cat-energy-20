@@ -53,8 +53,37 @@
       color: transparentize(black, .7);
     }
   }
+}
+
+@media (min-width: $desktop-width) {
+  color: var(--basic-white);
+
+  &:hover {
+    color: transparentize(white, .4);
+  }
+
+  &:active {
+    color: transparentize(white, .7);
+  }
+}
+
+.site-list__link--catalog {
+  color: var(--basic-black);
 
   @media (min-width: $desktop-width) {
-    color: var(--basic-white);
+
+    color: var(--basic-black);
+
+    &:hover {
+      color: transparentize(black, .4);
+    }
+
+    &:active {
+      color: transparentize(black, .7);
+    }
+  }
+
+  .site-list__link--active {
+    border-bottom: 2px solid var(--basic-green);
   }
 }

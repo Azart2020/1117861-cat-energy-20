@@ -3,10 +3,13 @@
   padding-bottom: 20px;
   background-color: var(--basic-white);
   margin: 0;
+
   @media (min-width: $tablet-width) {
-    padding: 0 30px;}
+    padding: 0 30px;
+  }
+
   @media (min-width: $desktop-width) {
-     padding: 0 110px;
+    padding: 0 110px;
   }
 }
 
@@ -21,6 +24,11 @@
   text-align: left;
 
   color: var(--basic-black);
+
+  @media (min-width: $tablet-width) {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
 }
 
 .page-advantages__list {

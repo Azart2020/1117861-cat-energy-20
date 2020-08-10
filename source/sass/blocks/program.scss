@@ -29,7 +29,6 @@
 .program__item {
   padding: 20px;
   background-color: var(--basic-gray);
-  margin-bottom: 20px;
   margin-top: 20px;
 
   @media (min-width: $tablet-width) {
@@ -91,6 +90,12 @@
 .program__link {
   text-transform: uppercase;
   color: var(--basic-black);
+
+  &:hover {}
+
+  &:active {
+    color: transparentize(black, .7);
+  }
 
   @media (min-width: $tablet-width) {
     font-weight: 200;

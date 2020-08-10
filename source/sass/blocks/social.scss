@@ -10,10 +10,11 @@
   border-bottom: 1px solid var(--basic-silver);
   border-top: 1px solid var(--basic-silver);
 
-   @media (min-width: $tablet-width){
+  @media (min-width: $tablet-width) {
     border: none;
   }
-   @media (min-width: $desktop-width){
+
+  @media (min-width: $desktop-width) {
     border: none;
   }
 }

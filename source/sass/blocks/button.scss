@@ -5,6 +5,7 @@
   display: block;
   padding: 5px;
   text-transform: uppercase;
+
 }
 
 .button--choose-program {
@@ -21,6 +22,15 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+
+  &:hover {
+    background-color: var(--basic-light-green);
+  }
+
+  &:active {
+    color: transparentize(white, .7);
+    background-color: var(--basic-light-green);
+  }
 
   @media (min-width: $tablet-width) {
     position: relative;
@@ -39,6 +49,20 @@
   line-height: 32px;
 
   color: var(--basic-white);
+  margin: 0 20px;
+
+  &:hover {
+    background-color: var(--basic-light-green);
+  }
+
+  &:active {
+    color: transparentize(white, .7);
+    background-color: var(--basic-light-green);
+  }
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+  }
 }
 
 .button--show {
@@ -54,4 +78,14 @@
   line-height: 38px;
 
   color: var(--basic-special-gray);
+  margin-top: auto;
+
+  &:hover {
+    background-color: var(--basic-light-gray);
+  }
+
+  &:active {
+    color: transparentize(black, .7);
+    background-color: var(--basic-light-gray);
+  }
 }

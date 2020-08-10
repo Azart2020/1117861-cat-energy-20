@@ -1,5 +1,14 @@
 .catalog {
   background-color: var(--basic-white);
+
+  @media (min-width: $tablet-width) {
+    padding: 20px 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 20px 110px;
+  }
+
 }
 
 .catalog__title {
@@ -11,8 +20,18 @@
   line-height: 36px;
   text-align: center;
   margin: 0;
-
+  border-top: 1px solid var(--basic-silver);
   color: var(--basic-black);
+
+  @media (min-width: $tablet-width) {
+    text-align: left;
+    font-family: "Oswald", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 60px;
+    border: none;
+  }
 }
 
 .catalog__list {

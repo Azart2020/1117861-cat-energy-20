@@ -2,14 +2,19 @@
   padding: 20px 20px;
   text-align: center;
   padding-top: 79px;
-  background-image: url("../img/icon-plus.svg");
+  background-image: url("../img/icon-plus-mobile.svg");
   background-size: 30px 30px;
   background-repeat: no-repeat;
-  background-position: 50%, 50%;
+  background-position: top 35px center;
   border-bottom: 1px solid var(--basic-light-gray);
+
+  @media (min-width: $tablet-width) {
+    border: 1px solid var(--basic-gray);
+  }
 }
 
 .card-more__title {
+  margin-bottom: 10px;
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: 200;
@@ -21,6 +26,7 @@
 }
 
 .card-more__description {
+  margin-top: 0;
   font-family: "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
