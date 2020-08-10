@@ -94,6 +94,7 @@
   &:active {
     color: transparentize(black, .7);
   }
+
   @media (min-width: $tablet-width) {
     font-weight: 200;
     font-size: 20px;

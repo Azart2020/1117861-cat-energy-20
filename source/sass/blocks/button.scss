@@ -28,7 +28,7 @@
 
   &:active {
     color: transparentize(white, .7);
-  background-color: var(--basic-light-green);
+    background-color: var(--basic-light-green);
   }
 
   @media (min-width: $tablet-width) {
@@ -56,7 +56,7 @@
 
   &:active {
     color: transparentize(white, .7);
-  background-color: var(--basic-light-green);
+    background-color: var(--basic-light-green);
   }
 
   @media (min-width: $tablet-width) {
@@ -85,6 +85,6 @@
 
   &:active {
     color: transparentize(black, .7);
-  background-color: var(--basic-light-gray);
+    background-color: var(--basic-light-gray);
   }
 }

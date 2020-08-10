@@ -46,11 +46,11 @@
     line-height: 24px;
 
     &:hover {
-  color: transparentize(black, .4);
+      color: transparentize(black, .4);
     }
 
     &:active {
-  color: transparentize(black, .7);
+      color: transparentize(black, .7);
     }
   }
 }
@@ -59,11 +59,11 @@
   color: var(--basic-white);
 
   &:hover {
-  color: transparentize(white, .4);
+    color: transparentize(white, .4);
   }
 
   &:active {
-  color: transparentize(white, .7);
+    color: transparentize(white, .7);
   }
 }
 
@@ -72,14 +72,14 @@
 
   @media (min-width: $desktop-width) {
 
-  color: var(--basic-black);
+    color: var(--basic-black);
 
     &:hover {
-  color: transparentize(black, .4);
+      color: transparentize(black, .4);
     }
 
     &:active {
-  color: transparentize(black, .7);
+      color: transparentize(black, .7);
     }
   }
 
