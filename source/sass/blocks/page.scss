@@ -18,11 +18,11 @@
 .page__wrapper {
   @media (min-width: $desktop-width) {
     width: $desktop-width;
-
-    background-image: url("../img/index-background-desktop@1x.jpg");
+    background-image: url("../img/index-can-desktop@1x.png"),
+    url("../img/index-background-desktop@1x.jpg");
+    background-position: top 141px right 330px, right 0;
     z-index: 5;
     background-repeat: no-repeat;
-    background-position: right 0;
     background-color: var(--basic-white);
   }
 }
@@ -43,7 +43,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding: 0 110px;
+    padding:52px 110px;
     background-color: transparent;
   }
 }

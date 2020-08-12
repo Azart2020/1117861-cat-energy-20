@@ -10,14 +10,14 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 20px;
-  padding: 20px 20px;
+  padding: 28px 20px;
 
   @media (min-width: $tablet-width) {
 
-    justify-items: center;
+    justify-items: start;
     align-items: center;
     min-height: 201px;
-    padding: 20px 30px;
+    padding: 20px 72px;
     background-color: var(--basic-gray);
   }
 
@@ -39,17 +39,20 @@
   margin: 0;
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
-  font-weight: 200;
+  font-weight: normal;
   font-size: 16px;
-  line-height: 18px;
+  line-height: 20px;
 
   text-transform: uppercase;
 
   color: var(--basic-light-black);
 
   @media (min-width: $tablet-width) {
-    padding: 60px;
     text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 21px;
   }
 
   @media (min-width: $desktop-width) {
@@ -69,13 +72,17 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 20px;
-  text-align: center;
+  text-align: left;
 
   color: var(--basic-special-gray);
 
   @media (min-width: $tablet-width) {
-    padding: 60px;
     text-align: right;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+  text-align: right;
   }
 
   @media (min-width: $desktop-width) {

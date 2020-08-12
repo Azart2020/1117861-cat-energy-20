@@ -6,28 +6,34 @@
 
 .advantages__item {
   display: block;
-  margin-top: 20px;
-  background-position: center left;
+  background-position: top -2px left ;
   background-size: 60px 60px;
-  padding-left: 90px;
+  padding-left: 80px;
   background-repeat: no-repeat;
+  margin-bottom: 26px;
 
   @media (min-width: $tablet-width) {
-    margin: 0;
-    margin-right: 40px;
-    max-width: 230px;
+    margin-bottom: 37px;
+    max-width: 250px;
     min-height: 280px;
     padding: 0;
   }
 }
+
+     @media (min-width: $tablet-width){
+    .advantages__item:nth-child(2n+1){
+      margin-right: 133px;
+    }
+  }
+
 
 .advantages__item--leaf {
   background-image: url("../img/advantage-leaf@1xg.svg");
 
   @media (min-width: $tablet-width) {
     background-image: url("../img/program-number1.svg"), url("../img/advantage-leaf@1xg.svg");
-    background-size: 112px 205px, 80px 80px;
-    background-position: right, top 50px left;
+    background-size: 154px 228px, 80px 80px;
+    background-position: top 27px right 10px, top 30px left;
   }
 }
 
@@ -36,8 +42,8 @@
 
   @media (min-width: $tablet-width) {
     background-image: url("../img/program-number2.svg"), url("../img/advantage-powder@1xg.svg");
-    background-size: 134px 205px, 80px 80px;
-    background-position: right, top 50px left;
+    background-size: 121px 228px, 80px 80px;
+    background-position: top 28px right 10px, top 28px left;
   }
 }
 
@@ -46,8 +52,8 @@
 
   @media (min-width: $tablet-width) {
     background-image: url("../img/program-number3.svg"), url("../img/advantage-dining@1xg.svg");
-    background-size: 134px 205px, 80px 80px;
-    background-position: right, top 50px left;
+    background-size: 119px 231px, 80px 80px;
+    background-position: top 24px right 9px, top 27px left;
   }
 }
 
@@ -56,12 +62,12 @@
 
   @media (min-width: $tablet-width) {
     background-image: url("../img/program-number4.svg"), url("../img/advantage-clock@1xg.svg");
-    background-size: 136px 205px, 80px 80px;
-    background-position: right, top 50px left;
+    background-size: 125px 262px, 80px 80px;
+    background-position: top 11px right 1px, top 27px left;
   }
 }
 
-.advantages-description {
+.advantages__description {
   margin: 0;
   font-family: "Arial", sans-serif;
   font-style: normal;
@@ -73,7 +79,6 @@
 
   @media (min-width: $tablet-width) {
     padding-top: 140px;
-    padding-right: 100px;
     font-family: "Arial", sans-serif;
     font-style: normal;
     font-weight: normal;

@@ -20,7 +20,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 27px;
 
   &:hover {
     background-color: var(--basic-light-green);
@@ -34,7 +34,15 @@
   @media (min-width: $tablet-width) {
     position: relative;
     margin: 0;
-    margin-left: 60px;
+    padding: 5px;
+    margin-left: 82px;
+    width: 244px;
+    height: 54px;
+    font-family: "Oswald", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+  line-height: 45px;
   }
 }
 
