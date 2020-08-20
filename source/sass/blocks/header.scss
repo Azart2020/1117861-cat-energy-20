@@ -1,16 +1,64 @@
 .header {
   margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 22px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 48px;
+  }
+}
+
+.header--index {
+  @media (min-width: $desktop-width) {
+    padding-top: 48px;
+    padding-bottom: 44px;
+  }
 }
 
 .header--catalog {
   background-color: var(--basic-white);
+  padding-bottom: 0;
 }
 
 .header--form {
   background-color: var(--basic-white);
+
+  @media (min-width: $desktop-width) {
+
+    padding-top: 61px;
+    padding-bottom: 40px;
+  }
 }
 
 .header__logo {
-  padding-top: 18px ;
-  padding-bottom:14px ;
+  padding-top: 18px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 0;
+    padding-left: 0;
+    width: 193px;
+    height: 69px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 222px;
+  }
+}
+
+.header__pic-logo {
+  @media (min-width: $tablet-width) {
+    width: 176px;
+    height: 53px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 203px;
+    height: 84px;
+    margin-top: -14px;
+  }
 }

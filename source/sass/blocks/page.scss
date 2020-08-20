@@ -18,12 +18,14 @@
 .page__wrapper {
   @media (min-width: $desktop-width) {
     width: $desktop-width;
+
     background-image: url("../img/index-can-desktop@1x.png"),
-    url("../img/index-background-desktop@1x.jpg");
-    background-position: top 141px right 330px, right 0;
-    z-index: 5;
-    background-repeat: no-repeat;
+    url("../img/index-background-desktop@1x.jpg"),
+    linear-gradient(90deg, var(--basic-white) 50%, var(--basic-green) 50%);
     background-color: var(--basic-white);
+    background-position: top 138px right 330px, right 0, center;
+    background-repeat: no-repeat;
+
   }
 }
 
@@ -32,7 +34,6 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  padding: 0 20px;
   background-color: var(--basic-white);
 
   @media (min-width: $tablet-width) {

@@ -6,11 +6,13 @@
   background-size: 78px 80px, auto;
   background-position: top 50px center, center;
   margin: 0;
-  margin-top: 20px;
+  margin-top: 39px;
   text-align: center;
   min-height: 289px;
   display: flex;
   align-items: flex-end;
+  background-size: 74px 60px, auto;
+  background-position: top 67px center, center;
 
   @media (min-width: $tablet-width) {
     min-height: 200px;
@@ -18,8 +20,9 @@
     background-image:
       url("../img/icon-gift.svg"),
       url("../img/gift-photo-tablet@1x.jpg");
-    background-position: left 50px top 50px, top;
-    background-size: 78px 80px, cover;
+    background-position: left 88px top 66px, top;
+    background-size: 60px 60px, cover;
+    margin-top: 68px;
   }
 
   @media (min-width: $desktop-width) {
@@ -27,7 +30,8 @@
     background-image:
       url("../img/icon-gift.svg"),
       url("../img/gift-photo-desktop@1x.jpg");
-    background-size: 80px 82px, auto;
+    background-size: 60px 60px, cover;
+    background-position: 93px 63px, top;
     margin: 0;
   }
 }
@@ -39,15 +43,17 @@
   font-size: 16px;
   line-height: 20px;
   color: var(--basic-white);
-  padding: 43px 58px;
+
+  padding: 6px 60px 26px 59px;
 
   @media (min-width: $tablet-width) {
     text-align: left;
-    padding-left: 400px;
+    padding: 5px 52px 52px 49px;
+    padding-left: 424px;
   }
 
   @media (min-width: $desktop-width) {
-    padding: 40px 40px;
+    padding: 25px 40px;
     text-align: center;
   }
 }

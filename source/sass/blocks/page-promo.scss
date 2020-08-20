@@ -14,19 +14,19 @@
   }
 
   @media (min-width: $tablet-width) {
-    min-height: 853px;
+    min-height: 859px;
     padding: 0 30px;
     background-image: url("../img/index-can-tablet@1x.jpg");
-    background-position: top 245px center, top center;
+    background-position: top 249px center, top center;
     background-color: var(--basic-white);
   }
 
   @media (min-width: $desktop-width) {
-    min-height: 585px;
+    min-height: 518px;
     padding: 0 110px;
     margin-bottom: 12px;
-    background-color: transparent;
     background-image: none;
+    background-color: transparent;
   }
 }
 
@@ -43,24 +43,24 @@
 
   text-align: center;
 
-
   @media (min-width: $tablet-width) {
     color: var(--basic-black);
     text-align: left;
-    padding-top: 45px;
+    padding-top: 47px;
     padding-left: 87px;
     padding-right: 190px;
-    padding-bottom: 40px;
+    padding-bottom: 41px;
     font-style: normal;
     font-weight: normal;
     font-size: 60px;
     line-height: 60px;
   }
+
   @media (min-width: $desktop-width) {
-    padding-top: 46px;
+    padding-top: 58px;
     padding-left: 81px;
     padding-right: 565px;
-    padding-bottom: 39px;
+    padding-bottom: 38px;
   }
 }
 
@@ -78,16 +78,18 @@
   @media (min-width: $tablet-width) {
     color: var(--basic-black);
     text-align: left;
-    padding-left: 87px;
+    padding-left: 89px;
     margin: 0;
-    margin-bottom: 47px;
+    margin-bottom: 49px;
     font-family: "Oswald", "Arial", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 20px;
   }
-  @media (min-width: $tablet-width) {
-    margin-bottom: 53px;
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 52px;
+    padding-left: 82px;
   }
 }

@@ -42,7 +42,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
-  line-height: 45px;
+    line-height: 45px;
   }
 }
 
@@ -51,12 +51,12 @@
   min-height: 40px;
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
-  font-weight: 200;
+  font-weight: normal;
   font-size: 16px;
-  line-height: 32px;
+  line-height: 29px;
 
   color: var(--basic-white);
-  margin: 0 20px;
+  margin: 0;
 
   &:hover {
     background-color: var(--basic-light-green);
@@ -69,6 +69,12 @@
 
   @media (min-width: $tablet-width) {
     margin: 0;
+    min-width: 248px;
+    line-height: 31px;
+  }
+
+  @media (min-width: $desktop-width) {
+    min-width: 168px;
   }
 }
 
@@ -80,9 +86,9 @@
   background: var(--basic-gray);
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
-  font-weight: 200;
+  font-weight: normal;
   font-size: 16px;
-  line-height: 38px;
+  line-height: 32px;
 
   color: var(--basic-special-gray);
   margin-top: auto;
@@ -94,5 +100,42 @@
   &:active {
     color: transparentize(black, 0.7);
     background-color: var(--basic-light-gray);
+  }
+
+  @media (min-width: $tablet-width) {
+    min-width: 249px;
+  }
+
+  @media (min-width: $desktop-width) {
+    min-width: 168px;
+  }
+}
+
+.button--form {
+  min-width: 280px;
+  min-height: 40px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  border: none;
+
+  color: var(--basic-white);
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    min-width: 282px;
+    min-height: 52px;
+    margin: 0;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 568px;
+    min-height:52px;
+    font-size: 20px;
+    line-height: 20px;
   }
 }

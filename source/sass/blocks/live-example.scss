@@ -2,7 +2,7 @@
   padding: 0 20px;
   background-color: var(--basic-light-silver);
   margin: 0;
-  padding-bottom:16px;
+  padding-bottom: 15px;
 
   @media (min-width: $tablet-width) {
     background-color: var(--basic-white);
@@ -11,16 +11,18 @@
   }
 
   @media (min-width: $desktop-width) {
-    background-color: var(--basic-gray);
+    background: linear-gradient(180deg, var(--basic-white) 25%, var(--basic-gray) 25%);
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     padding: 0 110px;
+    border-top: none;
   }
 }
 
 .live-example__title {
-  padding-top: 26px;
-  padding-bottom: 34px;
+  padding-top: 29px;
+  padding-bottom: 33px;
   margin: 0;
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
@@ -33,13 +35,18 @@
   color: var(--bacic-black);
 
   @media (min-width: $tablet-width) {
-    padding-bottom: 64px;
-    padding-top: 40px;
+    padding-bottom: 63px;
+    padding-top: 41px;
     font-family: "Oswald", "Arial", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 60px;
     line-height: 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 19px;
+    padding-bottom: 147px;
   }
 }
 
@@ -61,7 +68,12 @@
     font-size: 16px;
     line-height: 24px;
     padding-right: 7px;
-    padding-bottom: 53px;
+    padding-bottom: 54px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    padding-bottom: 70px;
   }
 }
 
@@ -69,30 +81,47 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-   @media (min-width: $tablet-width) {
+
+  @media (min-width: $tablet-width) {
     padding: 0 30px;
-   }
+    padding-bottom: 229px;
+  }
 
   @media (min-width: $desktop-width) {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     width: 450px;
+    padding: 0;
   }
 }
 
-.live-example__wrapper-interactive {
+.live-example__interactive {
 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 
-
   @media (min-width: $tablet-width) {
-    display: flex;
-    flex-direction: column;
-    height: 693px;
     background-color: var(--basic-light-silver);
     padding: 0 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    justify-content: start;
+    background-color: transparent;
+  }
+}
+
+.live-example__wrapper_img {
+  @media (min-width: $tablet-width) {
+    margin-top: -171px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
+    margin-top: -34px;
   }
 }
 
@@ -102,7 +131,6 @@
   flex-wrap: wrap;
 
   @media (min-width: $tablet-width) {
-
     flex-direction: row;
   }
 }
@@ -110,7 +138,6 @@
 .live-example__left-block {
   position: relative;
   margin-right: 32px;
-
 
   @media (min-width: $tablet-width) {
     margin-right: 42px;
@@ -188,7 +215,10 @@
   @media (min-width: $tablet-width) {
     top: 63px;
     left: 16px;
+  }
 
+  @media (min-width: $desktop-width) {
+    left: 10px;
   }
 }
 
@@ -201,6 +231,10 @@
   @media (min-width: $tablet-width) {
     top: 63px;
     left: 16px;
+  }
+
+  @media (min-width: $desktop-width) {
+    left: 10px;
   }
 }
 
@@ -237,6 +271,8 @@
   @media (min-width: $desktop-width) {
     width: 436px;
     flex-direction: row;
+    padding-top: 35px;
+    margin: 0;
   }
 }
 
@@ -244,12 +280,88 @@
   @media (min-width: $tablet-width) {
     padding-bottom: 10px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    margin-right: 64px;
+  }
 }
 
 .live-example__boris {
-  background-color: var(--basic-light-silver);
+  max-width: initial;
+  margin-top: 14px;
+  margin-left: -20px;
+  display: block;
+
+  @media (min-width: $tablet-width) {
+    height: 620px;
+    width: 354px;
+    margin: 0;
+  }
 }
 
 .live-example__boris--after {
-  display: none;
+  @media (max-width: $mobile-width-only) {
+    display: none;
+  }
+
+  @media (min-width: $tablet-width) {
+    height: 521px;
+    width: 722px;
+    object-fit: contain;
+    overflow: hidden;
+    margin-left: -100%;
+  }
+
+  @media (min-width: $desktop-width) {
+
+    height: 516px;
+    width: 722px;
+    object-fit: contain;
+    overflow: hidden;
+    margin-left: -147%;
+  }
+}
+
+.live-example__boris--before {
+  @media (min-width: $tablet-width) {
+    height: 520px;
+    width: 726px;
+    margin: 0;
+    object-fit: contain;
+    overflow: hidden;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 518px;
+    width: 964px;
+  }
+}
+
+.live-example__scale {
+  position: relative;
+}
+
+.live-example__wrapper-left {
+  @media (min-width: $tablet-width) {
+    width: 50%;
+    overflow: hidden;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 52%;
+  }
+}
+
+.live-example__wrapper-right {
+  @media (min-width: $tablet-width) {
+    width: 50%;
+    overflow: hidden;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 27%;
+    overflow: hidden;
+    text-align: right;
+  }
 }

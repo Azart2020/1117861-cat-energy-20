@@ -3,15 +3,25 @@
   justify-content: space-around;
   margin: 0 45px;
   padding-bottom: 20px;
-  padding-top: 75px;
+  padding-top: 31px;
   align-items: center;
   position: relative;
+
   @media (min-width: $tablet-width) {
-    padding-bottom:68px;
+    padding-bottom: 68px;
+    padding-top: 11px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
+    margin-left: 214px;
+    padding-top: 31px;
   }
 }
 
 .scale__bar {
+  position: relative;
   border: 1px solid var(--basic-soft-gray);
   border-radius: 6px;
   width: 84px;
@@ -23,44 +33,48 @@
     width: 428px;
     border: 1px solid var(--basic-soft-gray);
     background-color: var(--basic-soft-gray);
-    margin: 0 -20px;
+    margin: 0 22px;
 
     height: 5px;
   }
+
+  @media (min-width: $desktop-width) {
+
+    margin: 0 25px;
+  }
 }
 
-.scale__bar::after{
+.scale__bar::after {
   content: "";
 
   position: absolute;
-  top: 27px;
-  left: 61px;
+  top: 3px;
+  left: 5px;
 
   width: 35px;
   height: 6px;
   background-color: var(--basic-green);
   border: 1px solid var(--basic-green);
-  border-radius:6px;
+  border-radius: 6px;
 
   cursor: pointer;
-}
- @media (min-width: $tablet-width) {
-.scale__bar::after{
-  content: "";
 
-  position: absolute;
-  top: 73px;
-  left: 293px;
+  @media (min-width: $tablet-width) {
+    content: "";
 
-  width: 34px;
-  height: 34px;
-  background-color: green;
-  border: 12px solid var(--basic-white);
-  border-radius:50%;
-  box-shadow: 0px 0px 2px 2px var(--basic-light-silver);
+    position: absolute;
+    top: -15px;
+    left: 199px;
 
-  cursor: pointer;
-}
+    width: 34px;
+    height: 34px;
+    background-color: green;
+    border: 12px solid var(--basic-white);
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 2px var(--basic-light-silver);
+
+    cursor: pointer;
+  }
 }
 
 .scale__before,

@@ -1,6 +1,6 @@
 .page-advantages {
   padding: 0 20px;
-  padding-bottom: 20px;
+  padding-bottom: 22px;
   background-color: var(--basic-white);
   margin: 0;
 
@@ -14,7 +14,7 @@
 }
 
 .page-advantages__title {
-  padding-bottom: 41px;
+  padding-bottom: 39px;
   margin: 0;
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
@@ -27,13 +27,19 @@
   color: var(--basic-black);
 
   @media (min-width: $tablet-width) {
-    padding-top: 45px;
-    padding-bottom: 45px;
+    padding-top: 44px;
+    padding-bottom: 46px;
     font-family: "Oswald", "Arial", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 60px;
     line-height: 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+
+    padding-top: 71px;
+    padding-bottom: 45px;
   }
 }
 
@@ -42,7 +48,8 @@
 
   @media (min-width: $tablet-width) {
     display: flex;
-    flex-wrap: wrap;  }
+    flex-wrap: wrap;
+  }
 
   @media (min-width: $desktop-width) {
     display: flex;
