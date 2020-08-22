@@ -29,7 +29,6 @@
 }
 
 .form-additional__title::before {
-
   @media (min-width: $tablet-width) {
     content: "";
     position: absolute;
@@ -85,11 +84,9 @@
   @media (min-width: $desktop-width) {
     margin-bottom: 25px;
   }
-
 }
 
 .form-additional__item {
-
   margin-bottom: 24px;
 
   @media (min-width: $tablet-width) {
@@ -164,7 +161,6 @@
 }
 
 .form-additional__wrapper {
-
   @media (min-width: $tablet-width) {
     display: flex;
     padding: 0 68px;
