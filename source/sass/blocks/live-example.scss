@@ -2,20 +2,27 @@
   padding: 0 20px;
   background-color: var(--basic-light-silver);
   margin: 0;
+  padding-bottom: 14px;
 
   @media (min-width: $tablet-width) {
     background-color: var(--basic-white);
+    padding: 0;
+    border-top: 1px solid var(--basic-soft-silver);
   }
 
   @media (min-width: $desktop-width) {
+    background: linear-gradient(180deg, var(--basic-white) 25%, var(--basic-gray) 25%);
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 110px;
+    border-top: none;
   }
 }
 
 .live-example__title {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 29px;
+  padding-bottom: 33px;
   margin: 0;
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
@@ -26,11 +33,48 @@
   text-align: left;
 
   color: var(--bacic-black);
+
+  @media (min-width: $tablet-width) {
+    padding-bottom: 63px;
+    padding-top: 41px;
+    font-family: "Oswald", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 19px;
+    padding-bottom: 147px;
+  }
 }
 
 .live-example__description {
   margin: 0;
-  padding-bottom: 20px;
+  padding-bottom: 24px;
+  padding-right: 5px;
+
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+
+  @media (min-width: $tablet-width) {
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 7px;
+    padding-bottom: 54px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    padding-bottom: 70px;
+  }
 }
 
 .live-example__wrapper {
@@ -39,37 +83,65 @@
   justify-content: space-between;
 
   @media (min-width: $tablet-width) {
-    display: flex;
+    padding: 0 30px;
+    padding-bottom: 229px;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     width: 450px;
+    padding: 0;
   }
 }
 
-.live-example__wrapper-intaractive {
+.live-example__interactive {
 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 
-
   @media (min-width: $tablet-width) {
-    display: flex;
-    flex-direction: column;
+    background-color: var(--basic-light-silver);
+    padding: 0 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    justify-content: start;
+    background-color: transparent;
+  }
+}
+
+.live-example__wrapper_img {
+  @media (min-width: $tablet-width) {
+    margin-top: -171px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
+    margin-top: -34px;
   }
 }
 
 .live-example__block {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+  }
 }
 
 .live-example__left-block {
   position: relative;
+  margin-right: 32px;
+
+  @media (min-width: $tablet-width) {
+    margin-right: 42px;
+  }
 }
 
 .live-example__right-block {
@@ -95,6 +167,13 @@
 
   border: 1px solid var(--basic-soft-gray);
   border-radius: 3px;
+
+  @media (min-width: $tablet-width) {
+    width: 162px;
+    height: 72px;
+    font-size: 30px;
+    line-height: 37px;
+  }
 }
 
 .live-example__note {
@@ -114,26 +193,55 @@
 
   @media (min-width: $tablet-width) {
     background-color: var(--basic-white);
+    width: 129px;
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-color: var(--basic-gray);
+    width: 142px;
+    font-size: 14px;
+    line-height: 14px;
   }
 }
 
 .live-example__note--weight {
   padding: 0 3px;
   position: absolute;
-  top: 35px;
-  left: 0;
+  top: 48px;
+  left: 17px;
+
+  @media (min-width: $tablet-width) {
+    top: 63px;
+    left: 16px;
+  }
+
+  @media (min-width: $desktop-width) {
+    left: 10px;
+  }
 }
 
 .live-example__note--date {
   position: absolute;
 
-  top: 37px;
-  left: 21px;
+  top: 48px;
+  left: 18px;
+
+  @media (min-width: $tablet-width) {
+    top: 63px;
+    left: 16px;
+  }
+
+  @media (min-width: $desktop-width) {
+    left: 10px;
+  }
 }
 
 .live-example__total {
 
   margin: 0 auto;
+  padding-top: 10px;
   padding-bottom: 20px;
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
@@ -145,12 +253,115 @@
   text-transform: uppercase;
 
   color: var(--basic-black);
+
+  @media (min-width: $tablet-width) {
+
+    font-family: "Oswald", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0;
+    margin-left: auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 436px;
+    flex-direction: row;
+    padding-top: 35px;
+    margin: 0;
+  }
+}
+
+.live-example__total-info {
+  @media (min-width: $tablet-width) {
+    padding-bottom: 10px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    margin-right: 64px;
+  }
 }
 
 .live-example__boris {
-  background-color: var(--basic-light-silver);
+  max-width: initial;
+  margin-top: 14px;
+  margin-left: -20px;
+  display: block;
+
+  @media (min-width: $tablet-width) {
+    height: 620px;
+    width: 354px;
+    margin: 0;
+  }
 }
 
 .live-example__boris--after {
-  display: none;
+  @media (max-width: $mobile-width-only) {
+    display: none;
+  }
+
+  @media (min-width: $tablet-width) {
+    height: 521px;
+    width: 722px;
+    object-fit: contain;
+    overflow: hidden;
+    margin-left: -100%;
+  }
+
+  @media (min-width: $desktop-width) {
+
+    height: 516px;
+    width: 722px;
+    object-fit: contain;
+    overflow: hidden;
+    margin-left: -147%;
+  }
+}
+
+.live-example__boris--before {
+  @media (min-width: $tablet-width) {
+    height: 520px;
+    width: 726px;
+    margin: 0;
+    object-fit: contain;
+    overflow: hidden;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 518px;
+    width: 964px;
+  }
+}
+
+.live-example__scale {
+  position: relative;
+}
+
+.live-example__wrapper-left {
+  @media (min-width: $tablet-width) {
+    width: 50%;
+    overflow: hidden;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 52%;
+  }
+}
+
+.live-example__wrapper-right {
+  @media (min-width: $tablet-width) {
+    width: 50%;
+    overflow: hidden;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 27%;
+    overflow: hidden;
+    text-align: right;
+  }
 }

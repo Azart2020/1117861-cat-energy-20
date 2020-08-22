@@ -1,0 +1,96 @@
+.form-program {
+  padding: 9px 20px 12px 20px;
+
+  @media (min-width: $tablet-width) {
+
+    padding: 13px 30px 16px 25px;
+    border: 1px solid var(--basic-silver);
+    margin: 0 67px 60px 70px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 47%;
+    padding: 13px 30px 16px 23px;
+    margin: 65px 108px 53px 47px;
+  }
+}
+
+.form-program__list {
+  list-style: none;
+  padding-left: 46px;
+  margin: 0;
+  margin-top: 6px;
+}
+
+.form-program__item {
+  text-align: left;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+
+  @media (min-width: $tablet-width) {
+
+    padding-bottom: 13px;
+  }
+}
+
+.form-program__label {
+
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  position: relative;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 15px;
+  }
+}
+
+.form-program__label::before {
+  content: "";
+  position: absolute;
+  left: -44px;
+  top: -5px;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--basic-soft-gray);
+  cursor: pointer;
+
+  @media (min-width: $tablet-width) {
+
+    left: -44px;
+    top: -5px;
+
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.form-program__checkbox-radio:checked + .form-program__label::after {
+  content: "";
+  position: absolute;
+  left: -35px;
+  top: 4px;
+
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border: 1px solid var(--basic-green);
+  background: var(--basic-green);
+  cursor: pointer;
+
+  @media (min-width: $tablet-width) {
+
+    left: -33px;
+    top: 6px;
+
+    width: 18px;
+    height: 18px;
+  }
+}

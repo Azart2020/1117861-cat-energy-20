@@ -1,0 +1,37 @@
+.form-info {
+  padding: 0 20px;
+  padding-bottom: 9px;
+
+  @media (min-width: $tablet-width) {
+    padding: 67px 70px 51px 70px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 58%;
+    padding: 110px 33px 0 110px;
+  }
+}
+
+.form-info__input {
+  margin-left: 15px;
+  padding-left: 15px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 18px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    margin-left: 18px;
+  }
+}
+
+.form-info__label {
+  padding-bottom: 15px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 22px;
+  }
+}

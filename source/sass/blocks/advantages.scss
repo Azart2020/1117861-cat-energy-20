@@ -6,31 +6,172 @@
 
 .advantages__item {
   display: block;
-  margin-top: 20px;
-  background-position: center left;
+  background-position: top left;
   background-size: 60px 60px;
-  padding-left: 90px;
+  padding-left: 80px;
   background-repeat: no-repeat;
+  margin-bottom: 15px;
+  min-height: 65px;
+  position: relative;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 37px;
+    max-width: 250px;
+    min-height: 280px;
+    padding: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-right: -4px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .advantages__item:nth-child(2n+1) {
+    margin-right: 133px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .advantages__item:nth-child(2n+1) {
+    margin-right: 0;
+  }
+}
+
+.advantages__item--leaf::before {
+
+  content: "";
+  left: 0;
+
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: var(--basic-green);
+  border: 1px solid var(--basic-green);
+  background-image: url("../img/advantage-leaf@1x.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media (min-width: $tablet-width) {
+    content: "";
+    top: 27px;
+    left: 1px;
+
+    position: absolute;
+
+    width: 80px;
+    height: 80px;
+  }
 }
 
 .advantages__item--leaf {
-  background-image: url("../img/advantage-leaf@1xg.svg");
+  @media (min-width: $tablet-width) {
+    background-image: url("../img/program-number1.svg");
+    background-size: 154px 228px;
+    background-position: top 27px right 10px;
+  }
+}
+
+.advantages__item--powder::before {
+  content: "";
+  left: 0;
+
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: var(--basic-green);
+  border: 1px solid var(--basic-green);
+  background-image: url("../img/advantage-powder@1x.svg");
   background-repeat: no-repeat;
+  background-position: center;
+
+  @media (min-width: $tablet-width) {
+    content: "";
+    top: 27px;
+    left: 1px;
+
+    position: absolute;
+
+    width: 80px;
+    height: 80px;
+  }
 }
 
 .advantages__item--powder {
-  background-image: url("../img/advantage-powder@1xg.svg");
+  @media (min-width: $tablet-width) {
+    background-image: url("../img/program-number2.svg");
+    background-size: 121px 228px;
+    background-position: top 28px right 10px;
+  }
+}
+
+.advantages__item--cutlery::before {
+  content: "";
+  left: 0;
+
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: var(--basic-green);
+  border: 1px solid var(--basic-green);
+  background-image: url("../img/advantage-dining@1x.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media (min-width: $tablet-width) {
+    content: "";
+    top: 27px;
+    left: 1px;
+
+    position: absolute;
+
+    width: 80px;
+    height: 80px;
+  }
 }
 
 .advantages__item--cutlery {
-  background-image: url("../img/advantage-dining@1xg.svg");
+  @media (min-width: $tablet-width) {
+    background-image: url("../img/program-number3.svg");
+    background-size: 119px 231px;
+    background-position: top 24px right 9px;
+  }
+}
+
+.advantages__item--weigher::before {
+  content: "";
+  left: 0;
+
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: var(--basic-green);
+  border: 1px solid var(--basic-green);
+  background-image: url("../img/advantage-clock@1x.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media (min-width: $tablet-width) {
+    content: "";
+    top: 27px;
+    left: 1px;
+
+    position: absolute;
+
+    width: 80px;
+    height: 80px;
+  }
 }
 
 .advantages__item--weigher {
-  background-image: url("../img/advantage-clock@1xg.svg");
+  @media (min-width: $tablet-width) {
+    background-image: url("../img/program-number4.svg");
+    background-size: 123px 260px;
+    background-position: top 10px right 1px;
+  }
 }
 
-.advantages-description {
+.advantages__description {
   margin: 0;
   font-family: "Arial", sans-serif;
   font-style: normal;
@@ -39,4 +180,24 @@
   line-height: 18px;
 
   color: var(--basic-special-gray);
+  padding-top: 2px;
+
+  @media (max-width: $mobile-width-only) {
+    br {
+      display: none;
+    }
+  }
+
+  @media (min-width: $tablet-width) {
+    padding-top: 140px;
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 138px;
+  }
 }

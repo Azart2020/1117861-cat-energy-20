@@ -1,0 +1,125 @@
+.form-contacts {
+  padding: 0 20px;
+  padding-top: 10px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 68px;
+  }
+
+  @media (min-width: $desktop-width) {
+
+    padding: 0 110px;
+  }
+}
+
+.form-contacts__title {
+  margin-top: 17px;
+  margin-bottom: 31px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 15px;
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 76px;
+  }
+}
+
+.form-contacts__title::before {
+  @media (min-width: $tablet-width) {
+    content: "";
+    position: absolute;
+    top: 37px;
+    left: 0;
+    width: 30px;
+    height: 2px;
+    background-color: var(--basic-green);
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 70px;
+  }
+}
+
+.form-contacts__title::after {
+  content: "";
+  position: absolute;
+  top: 42px;
+  right: 0;
+  width: 99px;
+  height: 2px;
+  margin-left: 10px;
+  background-color: var(--basic-green);
+
+  @media (min-width: $tablet-width) {
+
+    top: 37px;
+    right: 0;
+    width: 147px;
+  }
+
+  @media (min-width: $desktop-width) {
+    top: 37px;
+    right: 0;
+    width: 778px;
+  }
+}
+
+.form-contacts__label {
+  padding-bottom: 15px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 19px;
+  }
+}
+
+.form-contacts__input {
+  margin-left: 13px;
+
+  @media (min-width: $tablet-width) {
+
+    margin-left: 18px;
+    padding-top: 9px;
+    padding-bottom: 11px;
+    padding-left: 23px;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+  }
+}
+
+.form-contacts__input--mail {
+  background-image: url("../img/icon-mail.svg");
+  background-repeat: no-repeat;
+  background-size: 20px 14px;
+  background-position: right 13px center;
+
+  @media (min-width: $desktop-width) {
+    width: 486px;
+    background-position: right 15px center;
+  }
+}
+
+.form-contacts__input--phone {
+  background-image: url("../img/icon-phone.svg");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: right 11px center;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 17px;
+    background-position: right 14px center;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 471px;
+  }
+}
+
+.form-contacts__wrapper {
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -2,7 +2,9 @@
   height: 100%;
   width: 320px;
   margin: 0 auto;
+
   background-color: var(--basic-background-gray);
+
 
   @media (min-width: $tablet-width) {
     width: $tablet-width;
@@ -13,16 +15,47 @@
   }
 }
 
+.page__wrapper {
+  @media (min-width: $desktop-width) {
+    width: $desktop-width;
+
+    background-image: url("../img/index-can-desktop@1x.png"),
+      url("../img/index-background-desktop@1x.jpg"),
+      linear-gradient(90deg, var(--basic-white) 50%, var(--basic-green) 50%);
+    background-color: var(--basic-white);
+    background-position: top 138px right 330px, right 0, center;
+    background-repeat: no-repeat;
+  }
+}
+
 .page__header {
   margin: 0;
-  background-color: var(--basic-white);
   height: auto;
   display: flex;
   flex-direction: column;
-  padding: 0 20px;
+  background-color: var(--basic-white);
 
   @media (min-width: $tablet-width) {
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 52px 110px;
+    background-color: transparent;
+  }
+}
+
+.page__footer {
+  padding: 0 20px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 110px;
   }
 }

@@ -1,23 +1,38 @@
 .page-promo {
-  background-color: var(--basic-white);
   background-image: url("../img/index-can-mobile@1x.png"),
     url("../img/index-background-mobile@1x.jpg");
   background-repeat: no-repeat;
-  background-position: bottom 25px center, top center;
+  background-position: bottom 42px center, top center;
   height: 480px;
   padding: 0 20px;
   position: relative;
+  background-color: transparent;
+
+
+  @media (max-width: $mobile-width-only) {
+    background-color: var(--basic-white);
+  }
 
   @media (min-width: $tablet-width) {
-    min-height: 750px;
+    min-height: 859px;
+    padding: 0 30px;
     background-image: url("../img/index-can-tablet@1x.jpg");
-    background-position: bottom 25px center, top center;
+    background-position: top 249px center, top center;
+    background-color: var(--basic-white);
+  }
+
+  @media (min-width: $desktop-width) {
+    min-height: 516px;
+    padding: 0 110px;
+    margin-bottom: 12px;
+    background-image: none;
+    background-color: transparent;
   }
 }
 
 .page-promo__title {
   padding-top: 27px;
-  padding-bottom: 25px;
+  padding-bottom: 12px;
   margin: 0;
   color: var(--basic-white);
   font-family: "Oswald", "Arial", sans-serif;
@@ -28,10 +43,24 @@
 
   text-align: center;
 
-
   @media (min-width: $tablet-width) {
     color: var(--basic-black);
     text-align: left;
+    padding-top: 47px;
+    padding-left: 87px;
+    padding-right: 190px;
+    padding-bottom: 41px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 58px;
+    padding-left: 81px;
+    padding-right: 565px;
+    padding-bottom: 38px;
   }
 }
 
@@ -49,5 +78,18 @@
   @media (min-width: $tablet-width) {
     color: var(--basic-black);
     text-align: left;
+    padding-left: 89px;
+    margin: 0;
+    margin-bottom: 49px;
+    font-family: "Oswald", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 52px;
+    padding-left: 82px;
   }
 }

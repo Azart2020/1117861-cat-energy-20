@@ -1,36 +1,127 @@
+.contacts {
+  position: relative;
+
+  @media (min-width: $tablet-width) {
+    background-color: var(--basic-gray);
+  }
+}
+
 .contacts__wrapper {
-  display: flex;
-  flex-basis: auto;
-  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 29px 20px;
+
+  @media (min-width: $tablet-width) {
+
+    justify-items: start;
+    min-height: 201px;
+    padding: 20px 72px;
+    background-color: var(--basic-gray);
+  }
+
+  @media (min-width: $desktop-width) {
+
+    padding: 5px 22px;
+    color: black;
+    background-color: white;
+    width: 568px;
+    min-height: 200px;
+    position: absolute;
+    top: 93px;
+    left: 112px;
+    justify-items: center;
+    align-items: center;
+  }
 }
 
 .contacts__description {
-  flex-grow: 1;
-
   margin: 0;
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
-  font-weight: 200;
+  font-weight: normal;
   font-size: 16px;
-  line-height: 18px;
+  line-height: 20px;
 
   text-transform: uppercase;
 
   color: var(--basic-light-black);
+
+  @media (min-width: $tablet-width) {
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    justify-items: start;
+    margin-top: 46px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 25px;
+    font-family: "Oswald", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: left;
+    margin-top: 5px;
+  }
 }
 
 .contacts__address {
-  flex-grow: 1;
-
   font-family: "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 20px;
+  text-align: left;
 
   color: var(--basic-special-gray);
+
+  @media (max-width: $mobile-width-only) {
+    br {
+      display: none;
+    }
+  }
+
+  @media (min-width: $tablet-width) {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    justify-self: end;
+    align-self: start;
+    margin-top: 46px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    justify-self: start;
+    align-self: start;
+    margin-top: 58px;
+    margin-left: 41px;
+  }
 }
 
 .contacts__map {
   min-height: 362px;
+  background-size: 100%;
+}
+
+.contacts__pic {
+  display: block;
+  width: 100%;
+  height: 362px;
+
+  @media (min-width: $tablet-width) {
+
+    height: 400px;
+  }
 }

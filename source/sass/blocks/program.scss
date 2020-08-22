@@ -6,6 +6,7 @@
 
 .program__title {
   margin: 0;
+  margin-left: 37px;
 
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
@@ -16,16 +17,43 @@
   text-align: center;
   text-transform: uppercase;
 
-  color: #000000;
+  color: var(--basic-black);
+
+  @media (min-width: $tablet-width) {
+    text-align: left;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    margin: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 160px;
+  }
+}
+
+.program__title--slim {
+  margin-left: 12px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 25px;
+    text-align: center;
+  }
 }
 
 .program__item {
-  padding: 20px;
   background-color: var(--basic-gray);
-  margin-bottom: 20px;
+  padding: 30px 20px 19px 20px;
 
   @media (min-width: $tablet-width) {
-    padding-right: 300px;
+    min-height: 372px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   @media (min-width: $desktop-width) {
@@ -34,38 +62,146 @@
 }
 
 .program__item--slim {
-  background-image: url("../img/icon-cat_slim.svg");
+
+  background-image: url("../img/cat-slim.svg"), url("../img/ellipse.svg");
   background-repeat: no-repeat;
-  background-size: 50px 53px;
-  background-position: 5px 10px;
+  background-size: 36px 50px, 50px 50px;
+  background-position: 29px 21px, 22px 25px;
+  margin-bottom: 20px;
 
   @media (min-width: $tablet-width) {
 
-    background-size: 200px 211px;
+    background-size: 140px 192px, 200px 200px;
+    background-position: 477px 79px, 448px 90px;
+    margin-bottom: 29px;
+    padding: 76px 281px 53px 53px;
+  }
 
-    background-position: right top;
+  @media (min-width: $desktop-width) {
+    background-position: 52px 44px, 50px 46px;
+    background-size: 100px 98px, 100px 106px;
+    padding: 80px 53px;
+    padding-bottom: 60px;
+    margin: 0;
   }
 }
 
 .program__item--mass {
-  background-image: url("../img/icon-cat_pro.svg");
+
+  background-image: url("../img/cat-mass.svg"), url("../img/ellipse.svg");
   background-repeat: no-repeat;
-  background-size: 67px 50px;
-  background-position: 5px 10px;
+  background-size: 67px 28px, 50px 50px;
+  background-position: 13px 36px, 23px 25px;
 
   @media (min-width: $tablet-width) {
 
-    background-size: 268px 200px;
-    background-position: right top;
+    padding: 76px 312px 53px 53px;
+    background-size: 268px 112px, 200px 200px;
+    background-position: 412px 135px, 448px 91px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-position: 33px 48px, 33px 50px;
+    background-size: 134px 100px, 134px 100px;
+    padding: 80px 53px;
+    padding-bottom: 60px;
   }
 }
 
+
 .program__description {
   border-bottom: 1px solid var(--basic-silver);
-  padding-bottom: 20px;
+  margin: 0;
+  margin-top: 30px;
+  padding-bottom: 21px;
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 19px;
+
+  @media (min-width: $tablet-width) {
+    border: none;
+    margin-top: 26px;
+    margin-bottom: 51px;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 77px;
+    margin-bottom: 26px;
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 .program__link {
+  position: relative;
   text-transform: uppercase;
   color: var(--basic-black);
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+
+  &:active {
+    color: transparentize(black, 0.7);
+  }
+
+  @media (min-width: $tablet-width) {
+    font-family: "Oswald", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-family: "Oswald", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.program__link::after {
+  content: "";
+  left: 101px;
+  top: 11px;
+  position: absolute;
+  width: 18px;
+  height: 2px;
+  background-color: var(--basic-black);
+
+  @media (min-width: $tablet-width) {
+    left: 131px;
+    top: 14px;
+  }
+}
+
+.program__link::before {
+  content: "";
+  left: 117px;
+  top: 6px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border: 6px solid transparent;
+  border-left: 7px solid var(--basic-black);
+
+  @media (min-width: $tablet-width) {
+    left: 148px;
+    top: 9px;
+  }
 }

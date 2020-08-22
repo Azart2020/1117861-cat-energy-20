@@ -1,23 +1,27 @@
 .additional-card {
-  padding-bottom: 20px;
-  border-bottom: 1px solid var(--basic-soft-gray);
+  padding-bottom: 19px;
 
   @media (min-width: $tablet-width) {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 13px 38px;
+    padding-bottom: 27px;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
     flex-direction: row;
+    padding: 16px 0;
+    padding-top: 14px;
+    align-items: center;
   }
 }
 
 .additional-card__title {
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
-  font-weight: 200;
+  font-weight: normal;
   font-size: 16px;
   line-height: 16px;
 
@@ -25,6 +29,39 @@
   text-transform: uppercase;
 
   color: var(--basic-darkest-gray);
+  margin: 0;
+  margin-top: 12px;
+  margin-bottom: 13px;
+  padding: 0;
+  padding-left: 1px;
+
+  @media (min-width: $tablet-width) {
+    font-family: "Oswald", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 12px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
+  }
+}
+
+.additional-card__number {
+  padding: 0;
+
+  @media (min-width: $tablet-width) {
+    text-align: right;
+    width: 150px;
+  }
+
+  @media (min-width: $desktop-width) {
+    min-width: 132px;
+    text-align: left;
+  }
 }
 
 .additional-card__wrapper {
@@ -32,31 +69,77 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 612px;
   }
 }
 
 .additional-card__table {
-  padding-bottom: 15px;
+  padding: 0;
+  padding-bottom: 14px;
   width: 100%;
+  border-collapse: collapse;
 
   @media (min-width: $tablet-width) {
     width: 226px;
+    padding: 0;
+    margin-top: 8px;
   }
 }
 
 .additional-card__price {
+  padding: 0;
   text-align: right;
+
+  @media (min-width: $tablet-width) {
+    min-width: 94px;
+  }
+
+  @media (min-width: $desktop-width) {
+    min-width: 154px;
+  }
 }
 
 .additional-card__order {
   width: 100%;
+  min-height: 40px;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 15px;
+
+  @media (min-width: $tablet-width) {
+
+    margin-top: 14px;
+  }
 
   @media (min-width: $desktop-width) {
     width: 244px;
+    min-height: 40px;
+    font-family: "Oswald", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 31px;
+    margin: 0;
+  }
+}
+
+.additional-card__info {
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 0;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 20px;
   }
 }

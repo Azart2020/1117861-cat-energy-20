@@ -5,22 +5,34 @@
 .footer__wrapper {
   display: flex;
   flex-direction: column;
-  padding: 0 20px;
+  align-items: baseline;
 
   @media (min-width: $tablet-width) {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     margin: 0;
+    padding-top: 25px;
+    align-items: center;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 23px;
   }
 }
 
 .footer__logo-title {
-  padding-top: 39px;
-  padding-bottom: 39px;
+  padding: 37px 0 28px 0;
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
+
+    padding: 39px 0 28px 0;
     margin: 0;
+    margin-right: 156px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
+    margin-right: 415px;
   }
 }

@@ -1,26 +1,62 @@
 .card-more {
-  padding: 20px 20px;
+  padding: 24px 20px;
   text-align: center;
-  padding-top: 79px;
-  background-image: url("../img/icon-plus.svg");
+  padding-top: 67px;
+  background-image: url("../img/icon-plus-mobile.svg");
   background-size: 30px 30px;
   background-repeat: no-repeat;
-  background-position: 50%, 50%;
+  background-position: 145px 28px;
   border-bottom: 1px solid var(--basic-light-gray);
+
+  @media (min-width: $tablet-width) {
+    border: 1px solid var(--basic-gray);
+    background-image: url("../img/icon-plus.svg");
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+    background-position: 133px 55px;
+    padding-left: 37px;
+    padding-right: 38px;
+    padding-bottom: 32px;
+    padding-top: 11px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-position: 87px 50px;
+    padding-bottom: 36px;
+  }
 }
 
 .card-more__title {
+  margin-bottom: 8px;
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
-  font-weight: 200;
+  font-weight: normal;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
 
   color: var(--basic-light-black);
+
+  @media (max-width: $mobile-width-only) {
+    br {
+      display: none;
+    }
+  }
+
+  @media (min-width: $tablet-width) {
+    font-family: "Oswald", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: auto;
+  }
 }
 
 .card-more__description {
+  margin-top: 0;
+  margin-bottom: 19px;
   font-family: "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -28,4 +64,22 @@
   line-height: 16px;
 
   color: var(--basic-special-gray);
+
+  @media (min-width: $tablet-width) {
+
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 14px;
+
+    padding: 2px 38px 3px 37px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    padding-top: 5px;
+    margin-top: 10px;
+  }
 }
