@@ -12,7 +12,7 @@
   display: flex;
   align-items: flex-end;
   background-size: 74px 60px, auto;
-  background-position: top 67px center, center;
+  background-position: top 65px center, center;
 
   @media (min-width: $tablet-width) {
     min-height: 200px;
@@ -22,7 +22,7 @@
       url("../img/gift-photo-tablet@1x.jpg");
     background-position: left 88px top 66px, top;
     background-size: 60px 60px, cover;
-    margin-top: 68px;
+    margin-top: 70px;
   }
 
   @media (min-width: $desktop-width) {

@@ -13,16 +13,16 @@
     background-image: url("../img/icon-plus.svg");
     background-size: 60px 60px;
     background-repeat: no-repeat;
-    background-position: 133px 50px;
+    background-position: 133px 55px;
     padding-left: 37px;
     padding-right: 38px;
-    padding-bottom: 34px;
+    padding-bottom: 32px;
+    padding-top: 11px;
   }
 
   @media (min-width: $desktop-width) {
-
     background-position: 87px 50px;
-    padding-bottom: 41px;
+    padding-bottom: 36px;
   }
 }
 
@@ -36,6 +36,11 @@
   text-transform: uppercase;
 
   color: var(--basic-light-black);
+  @media (max-width: $mobile-width-only) {
+  br{
+    display: none;
+  }
+  }
 
   @media (min-width: $tablet-width) {
     font-family: "Oswald", "Arial", sans-serif;
@@ -43,18 +48,17 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 22px;
+    text-align: center;
+    margin-top: auto;
 
-    padding: 76px 55px 13px 55px;
   }
 
-  @media (min-width: $desktop-width) {
-    padding: 75px 16px 13px 15px;
-  }
+  @media (min-width: $desktop-width) {}
 }
 
 .card-more__description {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 19px;
   font-family: "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -70,6 +74,7 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
+    margin-top: 14px;
 
     padding: 2px 38px 3px 37px;
   }
@@ -77,5 +82,6 @@
   @media (min-width: $desktop-width) {
     padding: 0;
     padding-top: 5px;
+    margin-top: 10px;
   }
 }
