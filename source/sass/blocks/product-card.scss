@@ -92,6 +92,7 @@
     margin-bottom: 34px;
     min-height: 93px;
   }
+
   @media (min-width: $desktop-width) {
     margin-bottom: 32px;
   }
@@ -113,9 +114,6 @@
 
 .product-card__right-block {
   text-align: right;
-
-  @media (min-width: $tablet-width) {
-  }
 }
 
 .product-card__pic {
@@ -144,13 +142,13 @@
 }
 
 .product-card__pic--small {
-
   @media (min-width: $tablet-width) {
     width: 324px;
     height: 174px;
     top: -94px;
     margin-bottom: -84px;
   }
+
   @media (min-width: $desktop-width) {
     top: -120px;
     margin-bottom: -83px;

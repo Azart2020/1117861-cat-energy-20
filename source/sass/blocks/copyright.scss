@@ -5,16 +5,16 @@
   width: 280px;
   padding-top: 16px;
 
-
   @media (min-width: $tablet-width) {
     margin-top: 0;
     margin-left: auto;
     width: auto;
     padding-top: 5px;
   }
+
   @media(min-width: $desktop-width) {
 
-    padding-top:13px;
+    padding-top: 13px;
   }
 }
 

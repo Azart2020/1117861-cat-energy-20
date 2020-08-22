@@ -104,12 +104,12 @@
 
   @media (min-width: $tablet-width) {
     min-width: 249px;
-  margin-top:63px;
+    margin-top: 63px;
   }
 
   @media (min-width: $desktop-width) {
     min-width: 168px;
-  margin-top:67px;
+    margin-top: 67px;
   }
 }
 
@@ -136,7 +136,7 @@
 
   @media (min-width: $desktop-width) {
     width: 568px;
-    min-height:52px;
+    min-height: 52px;
     font-size: 20px;
     line-height: 20px;
   }

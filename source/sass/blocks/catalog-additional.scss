@@ -59,9 +59,9 @@
     top: 25px;
     left: -110px;
     width: 71px;
-
   }
 }
+
 .catalog-additional__title::after {
   content: "";
   position: absolute;
@@ -72,7 +72,6 @@
   background-color: var(--basic-green);
 
   @media (min-width: $tablet-width) {
-
     top: 22px;
     right: -30px;
     width: 327px;
@@ -117,7 +116,6 @@
 
   @media (min-width: $desktop-width) {
     border: none;
-
     border-top: 1px solid var(--basic-soft-gray);
   }
 }

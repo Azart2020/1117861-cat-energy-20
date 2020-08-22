@@ -65,7 +65,6 @@
 }
 
 .advantages__item--leaf {
-
   @media (min-width: $tablet-width) {
     background-image: url("../img/program-number1.svg");
     background-size: 154px 228px;
@@ -74,7 +73,6 @@
 }
 
 .advantages__item--powder::before {
-
   content: "";
   left: 0;
 
@@ -100,7 +98,6 @@
 }
 
 .advantages__item--powder {
-
   @media (min-width: $tablet-width) {
     background-image: url("../img/program-number2.svg");
     background-size: 121px 228px;
@@ -109,7 +106,6 @@
 }
 
 .advantages__item--cutlery::before {
-
   content: "";
   left: 0;
 
@@ -135,7 +131,6 @@
 }
 
 .advantages__item--cutlery {
-
   @media (min-width: $tablet-width) {
     background-image: url("../img/program-number3.svg");
     background-size: 119px 231px;
@@ -144,7 +139,6 @@
 }
 
 .advantages__item--weigher::before {
-
   content: "";
   left: 0;
 
@@ -170,7 +164,6 @@
 }
 
 .advantages__item--weigher {
-
   @media (min-width: $tablet-width) {
     background-image: url("../img/program-number4.svg");
     background-size: 123px 260px;

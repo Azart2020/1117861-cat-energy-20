@@ -1,5 +1,4 @@
 .form-contacts {
-  padding-bottom: 0;
   padding: 0 20px;
   padding-top: 10px;
 
@@ -38,7 +37,6 @@
   }
 
   @media (min-width: $desktop-width) {
-
     width: 70px;
   }
 }
@@ -100,7 +98,7 @@
 
   @media (min-width: $desktop-width) {
     width: 486px;
-  background-position: right 15px center;
+    background-position: right 15px center;
   }
 }
 
@@ -112,7 +110,7 @@
 
   @media (min-width: $tablet-width) {
     padding-left: 17px;
-  background-position: right 14px center;
+    background-position: right 14px center;
   }
 
   @media (min-width: $desktop-width) {
@@ -121,7 +119,6 @@
 }
 
 .form-contacts__wrapper {
-
   @media (min-width: $desktop-width) {
     display: flex;
     justify-content: space-between;

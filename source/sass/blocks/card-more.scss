@@ -36,11 +36,13 @@
   text-transform: uppercase;
 
   color: var(--basic-light-black);
+
   @media (max-width: $mobile-width-only) {
-  br{
-    display: none;
+    br {
+      display: none;
+    }
   }
-  }
+}
 
   @media (min-width: $tablet-width) {
     font-family: "Oswald", "Arial", sans-serif;
@@ -50,7 +52,6 @@
     line-height: 22px;
     text-align: center;
     margin-top: auto;
-
   }
 
   @media (min-width: $desktop-width) {}
