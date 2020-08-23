@@ -1,5 +1,5 @@
 .form-additional {
-  padding: 5px 20px 13px 20px;
+  padding: 5px 20px 18px 20px;
   border: none;
 
   @media (min-width: $tablet-width) {
@@ -87,7 +87,7 @@
 }
 
 .form-additional__item {
-  margin-bottom: 24px;
+  margin-bottom: 23px;
 
   @media (min-width: $tablet-width) {
     margin-bottom: 0;
@@ -115,6 +115,9 @@
     line-height: 30px;
     margin-left: 23px;
   }
+  &:active{
+    opacity: 0.3;
+  }
 }
 
 .form-additional__label::before {
@@ -136,6 +139,11 @@
     height: 40px;
   }
 }
+
+.form-additional__label:hover::before{
+  border: 1px solid var(--gray);
+}
+
 
 .form-additional__checkbox:checked + .form-additional__label::after {
   content: "";
@@ -165,13 +173,14 @@
     display: flex;
     padding: 0 68px;
     padding-bottom: 70px;
+    padding-left: 70px;
     justify-content: space-between;
     align-items: flex-start;
   }
 
   @media (min-width: $desktop-width) {
     padding: 0 110px;
-    padding-bottom: 80px;
+    padding-bottom: 83px;
     justify-content: flex-start;
   }
 }

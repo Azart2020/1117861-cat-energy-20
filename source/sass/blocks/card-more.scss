@@ -13,7 +13,7 @@
     background-image: url("../img/icon-plus.svg");
     background-size: 60px 60px;
     background-repeat: no-repeat;
-    background-position: 133px 55px;
+    background-position: 132px 52px;
     padding-left: 37px;
     padding-right: 38px;
     padding-bottom: 32px;
@@ -21,7 +21,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    background-position: 87px 50px;
+    background-position: 91px 50px;
     padding-bottom: 36px;
   }
 }
@@ -52,11 +52,15 @@
     text-align: center;
     margin-top: auto;
   }
+  @media (min-width: $tablet-width) {
+
+  margin-bottom: 12px;
+  }
 }
 
 .card-more__description {
   margin-top: 0;
-  margin-bottom: 19px;
+  margin-bottom: 21px;
   font-family: "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;

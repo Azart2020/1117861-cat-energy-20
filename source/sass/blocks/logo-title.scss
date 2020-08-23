@@ -1,3 +1,11 @@
 .logo-title {
   margin: 0;
 }
+.logo-title__pic{
+  &:hover{
+    opacity: 0.8;
+  }
+  &:active{
+    opacity: 0.6;
+  }
+}

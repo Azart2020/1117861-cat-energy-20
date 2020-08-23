@@ -43,4 +43,11 @@
   @media (min-width: $desktop-width) {
     margin-left: 16px;
   }
+  &:hover{
+    fill: var(--basic-green);
+  }
+  &:active{
+    fill: var(--basic-green);
+    opacity: 0.3;
+  }
 }

@@ -15,7 +15,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding: 11px 0 40px 0;
+    padding: 11px 0 36px 0;
   }
 }
 
@@ -52,13 +52,15 @@
     line-height: 24px;
     padding: 0 50px;
     padding-top: 22px;
-    margin-bottom: 14px;
+    padding-right: 48px;
+    margin-bottom: 16px;
   }
 
   @media (min-width: $desktop-width) {
 
-    margin-bottom: 15px;
+    margin-bottom: 21px;
     padding: 0 5px;
+    line-height: 21px;
   }
 }
 
@@ -71,6 +73,7 @@
 
   @media (min-width: $tablet-width) {
     padding: 0 38px;
+    padding-left: 40px;
     width: 100%;
   }
 
@@ -93,12 +96,12 @@
   border-collapse: collapse;
 
   @media (min-width: $tablet-width) {
-    margin-bottom: 34px;
+    margin-bottom: 35px;
     min-height: 93px;
   }
 
   @media (min-width: $desktop-width) {
-    margin-bottom: 32px;
+    margin-bottom: 35px;
   }
 }
 
@@ -140,7 +143,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    top: -118px;
+    top: -119px;
     margin-bottom: -84px;
   }
 }
@@ -154,7 +157,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    top: -120px;
+    top: -124px;
     margin-bottom: -83px;
   }
 }
