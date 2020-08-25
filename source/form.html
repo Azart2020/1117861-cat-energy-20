@@ -121,12 +121,12 @@
         <address class="contacts__address">ул. Большая<br> Конюшенная, д. 19/8<br><br> Санкт-Петербург</address>
       </div>
       <div class="contacts__map">
-        <picture>
-          <source media="(min-width: 1440px)" srcset="img/bg-map-desktop@1x.png">
-          <source media="(min-width: 768px)" srcset="img/bg-map-tablet@1x.png">
-          <img class="contacts__pic" src="img/bg-map-mobile@1x.png" width="320" height="362" alt="карта адреса">
-        </picture>
-      </div>
+          <picture>
+            <source media="(min-width: 1440px)" srcset="img/bg-map-desktop@1x.png 1x, img/bg-map-desktop@2x.png 2x">
+            <source media="(min-width: 768px)" srcset="img/bg-map-tablet@1x.png 1x, img/bg-map-tablet@2x.png 2x">
+            <img class="contacts__pic" src="img/bg-map-mobile@1x.png" width="320" height="362" srcset="img/bg-map-mobile@2x.png 2x" alt="карта адреса">
+          </picture>
+        </div>
     </section>
   </main>
   <footer class="page__footer footer">

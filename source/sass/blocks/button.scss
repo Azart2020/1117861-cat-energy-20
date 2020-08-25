@@ -71,10 +71,11 @@
 
   @media (min-width: $tablet-width) {
     margin: 0;
-    margin-left: 38px;
-    margin-right: 39px;
+    margin-left: 40px;
+    margin-right: 37px;
     min-width: 248px;
     line-height: 20px;
+    padding-top: 9px;
   }
 
   @media (min-width: $desktop-width) {
@@ -110,7 +111,7 @@
 
   @media (min-width: $tablet-width) {
     min-width: 249px;
-    margin-top: 63px;
+    margin-top: 59px;
   }
 
   @media (min-width: $desktop-width) {

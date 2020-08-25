@@ -2,7 +2,8 @@
   background-color: var(--basic-white);
 
   @media (min-width: $tablet-width) {
-    padding: 20px 30px;
+    padding: 20px 29px;
+    padding-right: 30px;
   }
 
   @media (min-width: $desktop-width) {
@@ -54,7 +55,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 59px;
-    grid-row-gap: 144px;
+    grid-row-gap: 143px;
   }
 
   @media (min-width: $desktop-width) {
