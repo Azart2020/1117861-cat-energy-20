@@ -115,7 +115,8 @@
     line-height: 30px;
     margin-left: 23px;
   }
-  &:active{
+
+  &:active {
     opacity: 0.3;
   }
 }
@@ -140,10 +141,9 @@
   }
 }
 
-.form-additional__label:hover::before{
+.form-additional__label:hover::before {
   border: 1px solid var(--gray);
 }
-
 
 .form-additional__checkbox:checked + .form-additional__label::after {
   content: "";

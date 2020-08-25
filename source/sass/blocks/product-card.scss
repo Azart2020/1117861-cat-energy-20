@@ -133,8 +133,8 @@
 }
 
 .product-card__pic--big {
-    margin-top: 5px;
-    margin-bottom: -5px;
+  margin-top: 5px;
+  margin-bottom: -5px;
 
   @media (min-width: $tablet-width) {
     width: 324px;
@@ -150,8 +150,9 @@
 }
 
 .product-card__pic--small {
-    margin-top: 0;
-    margin-bottom: -6px;
+  margin-top: 0;
+  margin-bottom: -6px;
+
   @media (min-width: $tablet-width) {
     width: 324px;
     height: 174px;
