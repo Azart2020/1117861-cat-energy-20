@@ -11,7 +11,7 @@
   @media (min-width: $desktop-width) {
     width: 47%;
     padding: 13px 30px 16px 23px;
-    margin: 65px 108px 53px 47px;
+    margin: 68px 108px 53px 47px;
   }
 }
 
@@ -48,13 +48,17 @@
     line-height: 30px;
     padding-left: 15px;
   }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .form-program__label::before {
   content: "";
   position: absolute;
-  left: -44px;
-  top: -5px;
+  left: -45px;
+  top: -6px;
 
   width: 30px;
   height: 30px;
@@ -72,11 +76,16 @@
   }
 }
 
+.form-program__label:hover::before {
+  border: 1px solid var(--gray);
+}
+
+
 .form-program__checkbox-radio:checked + .form-program__label::after {
   content: "";
   position: absolute;
-  left: -35px;
-  top: 4px;
+  left: -37px;
+  top: 3px;
 
   width: 13px;
   height: 13px;

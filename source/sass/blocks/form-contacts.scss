@@ -13,8 +13,8 @@
 }
 
 .form-contacts__title {
-  margin-top: 17px;
-  margin-bottom: 31px;
+  margin-top: 16px;
+  margin-bottom: 32px;
 
   @media (min-width: $tablet-width) {
     margin-top: 15px;
@@ -79,13 +79,27 @@
 
   @media (min-width: $tablet-width) {
 
-    margin-left: 18px;
+    margin-left: 20px;
     padding-top: 9px;
     padding-bottom: 11px;
     padding-left: 23px;
     font-size: 20px;
     line-height: 30px;
     text-transform: uppercase;
+    border-color: var(--basic-soft-gray);
+    color: var(--basic-special-gray);
+  }
+
+  &:hover {
+    border-color: var(--basic-soft-gray);
+  }
+
+  &:active {
+    border-color: var(--basic-special-gray);
+  }
+
+  &:invalid {
+    border-color: var(--basic-pink);
   }
 }
 
@@ -93,11 +107,30 @@
   background-image: url("../img/icon-mail.svg");
   background-repeat: no-repeat;
   background-size: 20px 14px;
-  background-position: right 13px center;
+  background-position: right 16px center;
+
+
+  @media (min-width: $tablet-width) {
+
+    margin-left: 20px;
+    padding-left: 21px;
+  }
 
   @media (min-width: $desktop-width) {
     width: 486px;
     background-position: right 15px center;
+  }
+
+  &:hover {
+    border-color: var(--basic-soft-gray);
+  }
+
+  &:active {
+    background-image: url("../img/icon-mail-active.svg");
+  }
+
+  &:invalid {
+    background-image: url("../img/icon-mail-error.svg");
   }
 }
 
@@ -106,14 +139,31 @@
   background-repeat: no-repeat;
   background-size: 20px 20px;
   background-position: right 11px center;
+  margin-left: 11px;
+  padding-left: 15px;
 
   @media (min-width: $tablet-width) {
-    padding-left: 17px;
     background-position: right 14px center;
+
+    margin-left: 15px;
+    padding-left: 19px;
   }
 
   @media (min-width: $desktop-width) {
     width: 471px;
+    padding-left: 16px;
+  }
+
+  &:hover {
+    border-color: var(--basic-soft-gray);
+  }
+
+  &:active {
+    background-image: url("../img/icon-phone-active.svg");
+  }
+
+  &:invalid {
+    background-image: url("../img/icon-phone-error.svg");
   }
 }
 

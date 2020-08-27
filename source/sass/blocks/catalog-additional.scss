@@ -1,9 +1,10 @@
 .catalog-additional {
   background-color: var(--basic-white);
-  padding: 27px 20px 34px 20px;
+  padding: 27px 20px 35px 20px;
 
   @media (min-width: $tablet-width) {
-    padding: 52px 30px;
+    padding: 50px 30px;
+    padding-top: 53px;
     padding-bottom: 74px;
   }
 
@@ -17,7 +18,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  padding-bottom: 35px;
+  padding-bottom: 36px;
   margin: 0;
 
   font-family: "Oswald", "Arial", sans-serif;

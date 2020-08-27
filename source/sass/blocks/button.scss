@@ -15,12 +15,13 @@
   height: 40px;
 
   padding: 7px 44px;
+  padding-top: 21px;
 
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 27px;
+  line-height: 0px;
 
   &:hover {
     background-color: var(--basic-light-green);
@@ -35,6 +36,7 @@
     position: relative;
     margin: 0;
     padding: 5px;
+    padding-top: 27px;
     margin-left: 82px;
     width: 244px;
     height: 54px;
@@ -42,7 +44,6 @@
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
-    line-height: 45px;
   }
 }
 
@@ -53,7 +54,8 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 29px;
+  line-height: 20px;
+  padding-top: 10px;
 
   color: var(--basic-white);
   margin: 0;
@@ -69,14 +71,16 @@
 
   @media (min-width: $tablet-width) {
     margin: 0;
-    margin-left: 38px;
-    margin-right: 39px;
+    margin-left: 40px;
+    margin-right: 37px;
     min-width: 248px;
-    line-height: 31px;
+    line-height: 20px;
+    padding-top: 9px;
   }
 
   @media (min-width: $desktop-width) {
     min-width: 168px;
+    padding-top: 10px;
   }
 }
 
@@ -90,7 +94,8 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 32px;
+  line-height: 0;
+  padding-top: 20px;
 
   color: var(--basic-special-gray);
   margin-top: auto;
@@ -106,7 +111,7 @@
 
   @media (min-width: $tablet-width) {
     min-width: 249px;
-    margin-top: 63px;
+    margin-top: 59px;
   }
 
   @media (min-width: $desktop-width) {
@@ -122,7 +127,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 32px;
+  line-height: 0;
   border: none;
 
   color: var(--basic-white);
@@ -133,13 +138,11 @@
     min-height: 52px;
     margin: 0;
     font-size: 20px;
-    line-height: 32px;
   }
 
   @media (min-width: $desktop-width) {
     width: 568px;
     min-height: 52px;
     font-size: 20px;
-    line-height: 20px;
   }
 }

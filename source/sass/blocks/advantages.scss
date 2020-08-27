@@ -15,7 +15,7 @@
   position: relative;
 
   @media (min-width: $tablet-width) {
-    margin-bottom: 37px;
+    margin-bottom: 38px;
     max-width: 250px;
     min-height: 280px;
     padding: 0;
@@ -28,7 +28,7 @@
 
 @media (min-width: $tablet-width) {
   .advantages__item:nth-child(2n+1) {
-    margin-right: 133px;
+    margin-right: 135px;
   }
 }
 
