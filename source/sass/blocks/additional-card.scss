@@ -106,30 +106,6 @@
   }
 }
 
-.additional-card__order {
-  width: 100%;
-  min-height: 40px;
-  font-size: 16px;
-  line-height: 30px;
-  margin-top: 15px;
-
-  @media (min-width: $tablet-width) {
-
-    margin-top: 14px;
-  }
-
-  @media (min-width: $desktop-width) {
-    width: 244px;
-    min-height: 40px;
-    font-family: "Oswald", "Arial", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 31px;
-    margin: 0;
-  }
-}
-
 .additional-card__info {
   font-family: "Arial", sans-serif;
   font-style: normal;

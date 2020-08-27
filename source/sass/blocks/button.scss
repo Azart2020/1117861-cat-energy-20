@@ -59,6 +59,7 @@
 
   color: var(--basic-white);
   margin: 0;
+  margin-top: 6px;
 
   &:hover {
     background-color: var(--basic-light-green);
@@ -96,6 +97,7 @@
   font-size: 16px;
   line-height: 0;
   padding-top: 20px;
+  padding-left: 9px;
 
   color: var(--basic-special-gray);
   margin-top: auto;
@@ -116,7 +118,7 @@
 
   @media (min-width: $desktop-width) {
     min-width: 168px;
-    margin-top: 67px;
+    margin-top: 62px;
   }
 }
 
@@ -133,6 +135,15 @@
   color: var(--basic-white);
   margin: 0 auto;
 
+  &:hover {
+    background-color: var(--basic-light-green);
+  }
+
+  &:active {
+    color: transparentize(white, 0.7);
+    background-color: var(--basic-light-green);
+  }
+
   @media (min-width: $tablet-width) {
     min-width: 282px;
     min-height: 52px;
@@ -141,8 +152,41 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 568px;
+    min-width: 568px;
     min-height: 52px;
     font-size: 20px;
+  }
+}
+
+.button--order-additional {
+  width: 100%;
+  min-height: 40px;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 15px;
+
+  &:hover {
+    background-color: var(--basic-light-green);
+  }
+
+  &:active {
+    color: transparentize(white, 0.7);
+    background-color: var(--basic-light-green);
+  }
+
+  @media (min-width: $tablet-width) {
+
+    margin-top: 14px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 244px;
+    min-height: 40px;
+    font-family: "Oswald", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 31px;
+    margin: 0;
   }
 }

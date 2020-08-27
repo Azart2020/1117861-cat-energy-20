@@ -44,26 +44,27 @@
 }
 
 .form-comment__title::after {
+  display: block;
   content: "";
-  position: absolute;
-  top: 27px;
-  right: 0;
-  width: 158px;
+  flex-grow: 1;
+  flex-shrink: 0;
+
   height: 2px;
-  margin-left: 10px;
   background-color: var(--basic-green);
 
-  @media (min-width: $tablet-width) {
+  margin-left: 21px;
+  margin-right: -20px;
+  margin-top: 7px;
 
-    top: 69px;
-    right: 0;
-    width: 482px;
+  @media (min-width: $tablet-width) {
+    margin-left: 36px;
+    margin-right: -30px;
   }
 
   @media (min-width: $desktop-width) {
-    top: 72px;
-    right: 0;
-    width: 1108px;
+    margin-left: 34px;
+    margin-right: -110px;
+    margin-top: 8px;
   }
 }
 

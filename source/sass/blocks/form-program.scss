@@ -103,3 +103,7 @@
     height: 18px;
   }
 }
+
+.form-program__checkbox-radio:focus + .form-program__label::before {
+  box-shadow: 0 0 2px 1px black;
+}

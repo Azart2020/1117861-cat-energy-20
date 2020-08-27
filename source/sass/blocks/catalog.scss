@@ -28,7 +28,7 @@
 
   @media (min-width: $tablet-width) {
     padding: 0;
-    padding-top: 27px;
+    padding-top: 28px;
     padding-bottom: 165px;
     text-align: left;
     font-family: "Oswald", "Arial", sans-serif;
@@ -55,7 +55,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 59px;
-    grid-row-gap: 143px;
+    grid-row-gap: 140px;
   }
 
   @media (min-width: $desktop-width) {
@@ -63,7 +63,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 80px;
-    grid-row-gap: 147px;
+    grid-row-gap: 144px;
   }
 }
 

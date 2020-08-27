@@ -38,6 +38,10 @@
   }
 }
 
+.form-info__input:placeholder-shown {
+  border: 1px solid var(--basic-lightest-gray);
+}
+
 .form-info__label {
   padding-bottom: 15px;
 

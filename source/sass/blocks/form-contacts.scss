@@ -41,26 +41,27 @@
 }
 
 .form-contacts__title::after {
+  display: block;
   content: "";
-  position: absolute;
-  top: 42px;
-  right: 0;
-  width: 99px;
+  flex-grow: 1;
+  flex-shrink: 0;
+
   height: 2px;
-  margin-left: 10px;
   background-color: var(--basic-green);
 
-  @media (min-width: $tablet-width) {
+  margin-left: 21px;
+  margin-right: -20px;
+  margin-top: 7px;
 
-    top: 37px;
-    right: 0;
-    width: 147px;
+  @media (min-width: $tablet-width) {
+    margin-left: 36px;
+    margin-right: -30px;
   }
 
   @media (min-width: $desktop-width) {
-    top: 37px;
-    right: 0;
-    width: 778px;
+    margin-left: 34px;
+    margin-right: -110px;
+    margin-top: 8px;
   }
 }
 
