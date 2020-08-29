@@ -2,7 +2,13 @@
   height: 100%;
   width: 320px;
   margin: 0 auto;
+  position: relative;
 
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: var(--basic-special-gray);
   background-color: var(--basic-background-gray);
 
 

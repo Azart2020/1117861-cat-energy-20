@@ -1,9 +1,12 @@
 .social {
-  min-width: 280px;
+  min-width: 272px;
   min-height: 62px;
   list-style: none;
-  padding: 20px 53px;
+  padding: 22px 53px;
+  padding-bottom: 18px;
+  padding-left: 55px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin: 0 auto;
   align-items: center;
@@ -11,10 +14,10 @@
   border-top: 1px solid var(--basic-silver);
 
   @media (min-width: $tablet-width) {
-    min-width: 138px;
+    min-width: 129px;
     border: none;
     padding: 0;
-    padding-top: 1px;
+    padding-top: 6px;
     justify-content: space-between;
     align-items: center;
     margin: 0;
@@ -26,38 +29,50 @@
   }
 }
 
-.social__item {
+.social__link {
+  display: block;
   background-repeat: no-repeat;
+
+
+  &:hover {
+    fill: var(--basic-green);
+  }
+
+  &:active {
+    fill: var(--basic-green);
+    opacity: 0.3;
+  }
 }
 
-.social__item--vk {
-  background-image: url("../img/icon-vk.svg");
+.social__logo--vk {
   width: 23px;
   height: 16px;
 
   @media (min-width: $tablet-width) {
-    width: 31px;
+    width: 29px;
     height: 18px;
   }
 }
 
-.social__item--insta {
-  background-image: url("../img/icon-insta.svg");
-
-  width: 16px;
-  height: 16px;
+.social__logo--instagram {
+  width: 25px;
+  height: 17px;
 
   @media (min-width: $tablet-width) {
-    width: 27px;
+    width: 22px;
     height: 25px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 25px;
+    height: 23px;
   }
 }
 
-.social__item--facebook {
-  background-image: url("../img/icon-fb.svg");
+.social__logo--facebook {
 
-  width: 22px;
-  height: 22px;
+  width: 29px;
+  height: 19px;
 
   @media (min-width: $tablet-width) {
     width: 28px;

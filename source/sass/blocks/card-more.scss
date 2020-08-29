@@ -13,7 +13,7 @@
     background-image: url("../img/icon-plus.svg");
     background-size: 60px 60px;
     background-repeat: no-repeat;
-    background-position: 132px 52px;
+    background-position: 132px 56px;
     padding-left: 37px;
     padding-right: 38px;
     padding-bottom: 35px;
@@ -22,7 +22,7 @@
 
   @media (min-width: $desktop-width) {
     background-position: 91px 50px;
-    padding-bottom: 37px;
+    padding-bottom: 40px;
   }
 }
 
@@ -36,6 +36,7 @@
   text-transform: uppercase;
 
   color: var(--basic-light-black);
+  padding-left: 4px;
 
   @media (max-width: $mobile-width-only) {
     br {
@@ -77,6 +78,7 @@
     font-size: 16px;
     line-height: 18px;
     margin-top: 15px;
+    margin-bottom: 24px;
 
     padding: 2px 38px 3px 37px;
   }

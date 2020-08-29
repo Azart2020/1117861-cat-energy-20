@@ -38,6 +38,7 @@
   }
 
   @media (min-width: $desktop-width) {
+    padding-top: 130px;
     width: 245px;
     background-image:
       url("../img/icon-gift.svg"),
@@ -65,11 +66,12 @@
   line-height: 20px;
   color: var(--basic-white);
 
-  padding: 6px 60px 26px 59px;
+  padding: 6px 60px 26px 58px;
+
 
   @media (min-width: $tablet-width) {
     text-align: left;
-    padding: 5px 52px 52px 49px;
+    padding: 5px 100px 52px 49px;
     padding-left: 424px;
   }
 
