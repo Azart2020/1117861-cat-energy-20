@@ -45,6 +45,7 @@
   "dependencies": {
     "del": "^5.1.0",
     "gulp-cli": "^2.3.0",
-    "gulp-csso": "^4.0.1"
+    "gulp-csso": "^4.0.1",
+    "gulp-rename": "^2.0.0"
   }
 }
