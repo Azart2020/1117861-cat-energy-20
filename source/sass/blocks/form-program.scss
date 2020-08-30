@@ -11,7 +11,7 @@
   @media (min-width: $desktop-width) {
     width: 47%;
     padding: 13px 30px 16px 23px;
-    margin: 68px 108px 53px 47px;
+    margin: 66px 111px 53px 47px;
   }
 }
 
@@ -20,6 +20,8 @@
   padding-left: 46px;
   margin: 0;
   margin-top: 6px;
+  @media (min-width: $tablet-width) {
+    padding-left: 48px;}
 }
 
 .form-program__item {
@@ -28,7 +30,6 @@
   padding-bottom: 15px;
 
   @media (min-width: $tablet-width) {
-
     padding-bottom: 13px;
   }
 }

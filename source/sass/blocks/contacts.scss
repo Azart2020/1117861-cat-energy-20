@@ -9,7 +9,7 @@
 .contacts__wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 30px 20px;
+  padding: 29px 20px;
 
   @media (min-width: $tablet-width) {
 
@@ -53,7 +53,7 @@
     font-size: 20px;
     line-height: 25px;
     justify-items: start;
-    margin-top: 49px;
+    margin-top: 46px;
   }
 
   @media (min-width: $desktop-width) {
@@ -105,35 +105,57 @@
     text-align: left;
     justify-self: start;
     align-self: start;
-    margin-top: 61px;
+    margin-top: 60px;
     margin-left: 41px;
   }
 }
 
 .contacts__map {
   height: 362px;
-  background-image: url("../img/bg-map-mobile@1x.png");
+  background-image: url("../img/map-pin.png"),
+    url("../img/bg-map-mobile@1x.png");
+  background-repeat: no-repeat;
+  background-position: 131px 136px, 0 0;
+  background-size: 59px 53px, 100%;
 
   @media (min-resolution: 2dppx) {
-    background-image: url("../img/bg-map-mobile@2x.png");
+    background-image: url("../img/map-pin.png"),
+      url("../img/bg-map-mobile@2x.png");
+    background-repeat: no-repeat;
+    background-position: 131px 136px, 0 0;
+    background-size: 59px 53px, 100%;
   }
 
   @media (min-width: $tablet-width) {
     height: 400px;
 
-    background-image: url("../img/bg-map-tablet@1x.png");
+    background-image: url("../img/map-pin.png"),
+      url("../img/bg-map-tablet@1x.png");
+    background-position: 319px 146px, 0 0;
+    background-size: 128px 106px, 100%;
 
     @media (min-resolution: 2dppx) {
-      background-image: url("../img/bg-map-tablet@2x.png");
+      background-image: url("../img/map-pin.png"),
+        url("../img/bg-map-tablet@2x.png");
+      background-position: 319px 146px, 0 0;
+      background-size: 128px 106px, 100%;
     }
   }
 
   @media (min-width: $desktop-width) {
     @media (min-resolution: 2dppx) {
-      background-image: url("../img/bg-map-desktop@2x.png");
+      background-image: url("../img/map-pin.png"),
+        url("../img/bg-map-desktop@2x.png");
+      background-position: 902px 131px, 0 0;
+      background-size: 115px 101px, 100%;
     }
 
-    background-image: url("../img/bg-map-desktop@1x.png");
+    background-image: url("../img/map-pin.png"),
+    url("../img/bg-map-desktop@1x.png");
+    background-position: 902px 131px,
+    0 0;
+    background-size: 115px 101px,
+    100%;
   }
 }
 
