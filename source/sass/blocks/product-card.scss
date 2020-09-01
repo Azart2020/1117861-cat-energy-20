@@ -76,6 +76,7 @@
 }
 
 .product-card__info {
+    margin-top: 12px;
 
   font-family: "Arial", sans-serif;
   font-style: normal;
@@ -172,7 +173,13 @@
 
 .product-card__pic--fish-small {
   margin-top: 19px;
-  height: 112px;
+  height: 113px;
+  margin-bottom: -19px;
+    @media (min-resolution: 2dppx) {
+    margin-top: 19px;
+    height: 126px;
+    margin-bottom: -19px;
+    }
 
   @media (min-width: $tablet-width) {
     width: 324px;
@@ -210,8 +217,13 @@
 
 .product-card__pic--buckwheat-small {
   margin-top: 19px;
-  height: 112px;
-
+  height: 113px;
+  margin-bottom: -19px;
+    @media (min-resolution: 2dppx) {
+    margin-top: 19px;
+    height: 130px;
+    margin-bottom: -19px;
+    }
   @media (min-width: $tablet-width) {
     width: 324px;
     height: 172px;
@@ -247,21 +259,31 @@
 }
 
 .product-card__pic--rice-small {
-  height: 112px;
-  margin-top: 19px;
-
+    margin-top: 18px;
+    height: 112px;
+    margin-bottom: -19px;
+    @media (min-resolution: 2dppx) {
+    margin-top: 15px;
+    height: 134px;
+    margin-bottom: -19px;
+    }
   @media (min-width: $tablet-width) {
     width: 324px;
     height: 172px;
     top: -74px;
     margin-bottom: 25px;
+
+
+    @media (min-resolution: 2dppx) {
+    top: -70px;
+    margin-bottom: 28px;}
   }
 
   @media (min-width: $desktop-width) {
     width: 243px;
     height: 172px;
     top: -85px;
-    margin-bottom: 45px;
+    margin-bottom: 49px;
   }
 }
 

@@ -15,7 +15,7 @@
   position: relative;
 
   @media (min-width: $tablet-width) {
-    margin-bottom: 35px;
+    margin-bottom: 37px;
     max-width: 250px;
     min-height: 280px;
     padding: 0;
@@ -28,7 +28,7 @@
 
 @media (min-width: $tablet-width) {
   .advantages__item:nth-child(2n+1) {
-    margin-right: 135px;
+    margin-right: 133px;
   }
 }
 
@@ -100,8 +100,8 @@
 .advantages__item--powder {
   @media (min-width: $tablet-width) {
     background-image: url("../img/program-number2.svg");
-    background-size: 121px 228px;
-    background-position: top 28px right 10px;
+    background-size: 116px 228px;
+    background-position: top 26px right 14px;
   }
 }
 
@@ -133,8 +133,8 @@
 .advantages__item--cutlery {
   @media (min-width: $tablet-width) {
     background-image: url("../img/program-number3.svg");
-    background-size: 118px 237px;
-    background-position: top 24px right 12px;
+    background-size: 114px 237px;
+    background-position: top 22px right 12px;
   }
 }
 
@@ -167,7 +167,7 @@
   @media (min-width: $tablet-width) {
     background-image: url("../img/program-number4.svg");
     background-size: 119px 226px;
-    background-position: top 31px right 5px;
+    background-position: top 29px right 5px;
   }
 }
 
@@ -189,7 +189,7 @@
   }
 
   @media (min-width: $tablet-width) {
-    padding-top: 140px;
+    padding-top: 139px;
     font-family: "Arial", sans-serif;
     font-style: normal;
     font-weight: normal;

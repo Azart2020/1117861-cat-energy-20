@@ -37,7 +37,7 @@
 
   @media (min-width: $tablet-width) {
     padding-bottom: 64px;
-    padding-top: 43px;
+    padding-top: 39px;
     font-family: "Oswald", "Arial", sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -267,6 +267,7 @@
     align-items: flex-end;
     margin: 0;
     margin-left: auto;
+    padding-top: 11px;
   }
 
   @media (min-width: $desktop-width) {
