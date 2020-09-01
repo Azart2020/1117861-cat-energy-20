@@ -15,10 +15,10 @@
 
   @media (min-resolution: 2dppx) {
     background-image:
-    url("../img/icon-gift.svg"),
-    url("../img/gift-photo-mobile@2x.jpg");
+      url("../img/icon-gift.svg"),
+      url("../img/gift-photo-mobile@2x.jpg");
     background-size: 74px 60px, 280px 289px;
-    background-position: top 65px , center;
+    background-position: top 65px, center;
   }
 
   @media (min-width: $tablet-width) {
