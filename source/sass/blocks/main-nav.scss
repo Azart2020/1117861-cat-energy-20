@@ -1,5 +1,4 @@
 .main-nav__list {
-
   display: flex;
   flex-direction: column;
 
@@ -26,8 +25,8 @@
   width: 24px;
   height: 24px;
   background-color: var(--basic-white);
-  cursor: pointer;
   border: none;
+  cursor: pointer;
 
   @media (min-width: $tablet-width) {
     display: none;

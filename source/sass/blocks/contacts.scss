@@ -12,7 +12,6 @@
   padding: 29px 20px;
 
   @media (min-width: $tablet-width) {
-
     justify-items: start;
     min-height: 201px;
     padding: 18px 72px;
@@ -20,17 +19,16 @@
   }
 
   @media (min-width: $desktop-width) {
-
-    padding: 5px 22px;
-    color: black;
-    background-color: white;
-    min-width: 568px;
-    min-height: 200px;
     position: absolute;
     top: 93px;
     left: 112px;
     justify-items: center;
     align-items: center;
+    min-width: 568px;
+    min-height: 200px;
+    padding: 5px 22px;
+    color: black;
+    background-color: white;
   }
 }
 
@@ -41,22 +39,22 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-
   text-transform: uppercase;
-
   color: var(--basic-light-black);
 
   @media (min-width: $tablet-width) {
+    justify-items: start;
+    margin-top: 46px;
     text-align: left;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 25px;
-    justify-items: start;
-    margin-top: 46px;
   }
 
   @media (min-width: $desktop-width) {
+    margin-top: 9px;
+    max-width: 285px;
     padding: 25px;
     font-family: "Oswald", "Arial", sans-serif;
     font-style: normal;
@@ -64,8 +62,6 @@
     font-size: 20px;
     line-height: 26px;
     text-align: left;
-    margin-top: 9px;
-    max-width: 285px;
   }
 }
 
@@ -76,7 +72,6 @@
   font-size: 14px;
   line-height: 20px;
   text-align: left;
-
   color: var(--basic-special-gray);
 
   @media (max-width: $mobile-width-only) {
@@ -86,29 +81,29 @@
   }
 
   @media (min-width: $tablet-width) {
+    margin-top: 45px;
+    justify-self: end;
+    align-self: start;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
     text-align: right;
-    justify-self: end;
-    align-self: start;
-    margin-top: 45px;
   }
 
   @media (min-width: $desktop-width) {
+    justify-self: start;
+    align-self: start;
+    max-width: 285px;
     padding: 0;
+    margin-left: 41px;
+    margin-top: 60px;
     font-family: "Arial", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
     text-align: left;
-    justify-self: start;
-    align-self: start;
-    margin-top: 60px;
-    margin-left: 41px;
-    max-width: 285px;
   }
 }
 
@@ -131,7 +126,6 @@
 
   @media (min-width: $tablet-width) {
     height: 400px;
-
     background-image: url("../img/map-pin.png"),
       url("../img/bg-map-tablet@1x.png");
     background-position: 319px 146px, 0 0;
@@ -166,7 +160,6 @@
   height: 362px;
 
   @media (min-width: $tablet-width) {
-
     height: 400px;
   }
 }

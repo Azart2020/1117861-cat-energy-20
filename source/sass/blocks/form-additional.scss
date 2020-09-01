@@ -16,14 +16,12 @@
   margin-bottom: 39px;
 
   @media (min-width: $tablet-width) {
-
     font-size: 36px;
     line-height: 36px;
     margin-bottom: 62px;
   }
 
   @media (min-width: $desktop-width) {
-
     margin-bottom: 60px;
   }
 }
@@ -40,7 +38,6 @@
   }
 
   @media (min-width: $desktop-width) {
-
     top: 72px;
     width: 70px;
   }
@@ -51,13 +48,11 @@
   content: "";
   flex-grow: 1;
   flex-shrink: 0;
-
   height: 2px;
-  background-color: var(--basic-green);
-
   margin-left: 21px;
   margin-right: -20px;
   margin-top: 7px;
+  background-color: var(--basic-green);
 
   @media (min-width: $tablet-width) {
     margin-left: 36px;
@@ -72,8 +67,8 @@
 }
 
 .form-additional__list {
-  list-style: none;
   padding-left: 46px;
+  list-style: none;
 
   @media (min-width: $tablet-width) {
     display: flex;
@@ -112,7 +107,6 @@
   position: relative;
 
   @media (min-width: $tablet-width) {
-
     font-size: 20px;
     line-height: 30px;
     margin-left: 23px;
@@ -161,7 +155,6 @@
   cursor: pointer;
 
   @media (min-width: $tablet-width) {
-
     left: -43px;
     top: 4px;
 
@@ -177,16 +170,16 @@
 .form-additional__wrapper {
   @media (min-width: $tablet-width) {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     padding: 0 68px;
     padding-bottom: 70px;
     padding-left: 70px;
-    justify-content: space-between;
-    align-items: flex-start;
   }
 
   @media (min-width: $desktop-width) {
+    justify-content: flex-start;
     padding: 0 110px;
     padding-bottom: 80px;
-    justify-content: flex-start;
   }
 }

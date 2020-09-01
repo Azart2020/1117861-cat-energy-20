@@ -50,12 +50,9 @@
   font-weight: normal;
   font-size: 36px;
   line-height: 36px;
-
   text-align: center;
 
   @media (min-width: $tablet-width) {
-    color: var(--basic-black);
-    text-align: left;
     padding-top: 48px;
     padding-left: 88px;
     padding-right: 190px;
@@ -64,6 +61,8 @@
     font-weight: normal;
     font-size: 60px;
     line-height: 60px;
+    color: var(--basic-black);
+    text-align: left;
   }
 
   @media (min-width: $desktop-width) {
@@ -81,13 +80,10 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 14px;
-
   text-align: center;
   text-transform: uppercase;
 
   @media (min-width: $tablet-width) {
-    color: var(--basic-black);
-    text-align: left;
     padding-left: 89px;
     margin: 0;
     margin-bottom: 49px;
@@ -96,6 +92,8 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 20px;
+    color: var(--basic-black);
+    text-align: left;
   }
 
   @media (min-width: $desktop-width) {

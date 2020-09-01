@@ -1,7 +1,7 @@
 .card-more {
   padding: 24px 20px;
-  text-align: center;
   padding-top: 67px;
+  text-align: center;
   background-image: url("../img/icon-plus-mobile.svg");
   background-size: 30px 30px;
   background-repeat: no-repeat;
@@ -9,24 +9,25 @@
   border-bottom: 1px solid var(--basic-light-gray);
 
   @media (min-width: $tablet-width) {
-    border: 1px solid var(--basic-gray);
-    background-image: url("../img/icon-plus.svg");
-    background-size: 60px 60px;
-    background-repeat: no-repeat;
-    background-position: 132px 56px;
     padding-left: 37px;
     padding-right: 38px;
     padding-bottom: 35px;
     padding-top: 11px;
+    background-image: url("../img/icon-plus.svg");
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+    background-position: 132px 56px;
+    border: 1px solid var(--basic-gray);
   }
 
   @media (min-width: $desktop-width) {
-    background-position: 91px 50px;
     padding-bottom: 40px;
+    background-position: 91px 50px;
   }
 }
 
 .card-more__title {
+  padding-left: 4px;
   margin-bottom: 8px;
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
@@ -34,9 +35,7 @@
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
-
   color: var(--basic-light-black);
-  padding-left: 4px;
 
   @media (max-width: $mobile-width-only) {
     br {
@@ -45,13 +44,13 @@
   }
 
   @media (min-width: $tablet-width) {
+    margin-top: auto;
     font-family: "Oswald", "Arial", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 22px;
     text-align: center;
-    margin-top: auto;
   }
 
   @media (min-width: $desktop-width) {
@@ -67,20 +66,17 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 16px;
-
   color: var(--basic-special-gray);
 
   @media (min-width: $tablet-width) {
-
+    margin-top: 15px;
+    margin-bottom: 24px;
+    padding: 2px 38px 3px 37px;
     font-family: "Arial", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
-    margin-top: 15px;
-    margin-bottom: 24px;
-
-    padding: 2px 38px 3px 37px;
   }
 
   @media (min-width: $desktop-width) {

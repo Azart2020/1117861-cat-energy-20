@@ -12,37 +12,36 @@
   @media (min-width: $desktop-width) {
     display: flex;
     flex-direction: row;
+    align-items: center;
     padding: 16px 0;
     padding-top: 14px;
-    align-items: center;
   }
 }
 
 .additional-card__title {
-  font-family: "Oswald", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 16px;
-
-  text-align: left;
-  text-transform: uppercase;
-
-  color: var(--basic-darkest-gray);
   margin: 0;
   margin-top: 12px;
   margin-bottom: 13px;
   padding: 0;
   padding-left: 1px;
 
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: var(--basic-darkest-gray);
+  text-align: left;
+  text-transform: uppercase;
+
+
   @media (min-width: $tablet-width) {
+    margin-bottom: 12px;
     font-family: "Oswald", "Arial", sans-serif;
     font-style: normal;
     font-weight: normal;
-
     font-size: 20px;
     line-height: 20px;
-    margin-bottom: 12px;
   }
 
   @media (min-width: $desktop-width) {
@@ -54,8 +53,8 @@
   padding: 0;
 
   @media (min-width: $tablet-width) {
-    text-align: right;
     width: 150px;
+    text-align: right;
   }
 
   @media (min-width: $desktop-width) {
@@ -73,17 +72,17 @@
   }
 
   @media (min-width: $desktop-width) {
+    width: 612px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 612px;
   }
 }
 
 .additional-card__table {
+  width: 100%;
   padding: 0;
   padding-bottom: 14px;
-  width: 100%;
   border-collapse: collapse;
 
   @media (min-width: $tablet-width) {
@@ -107,12 +106,12 @@
 }
 
 .additional-card__info {
+  padding: 0;
   font-family: "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 14px;
-  padding: 0;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;

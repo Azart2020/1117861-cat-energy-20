@@ -1,11 +1,11 @@
 .scale {
+  position: relative;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin: 0 45px;
   padding-bottom: 20px;
   padding-top: 31px;
-  align-items: center;
-  position: relative;
 
   @media (min-width: $tablet-width) {
     padding-bottom: 68px;
@@ -22,31 +22,28 @@
 
 .scale__bar {
   position: relative;
-  border: 1px solid var(--basic-soft-gray);
-  border-radius: 6px;
   width: 84px;
   height: 14px;
-  background-color: var(--basic-white);
   margin: 0 16px;
+  background-color: var(--basic-white);
+  border: 1px solid var(--basic-soft-gray);
+  border-radius: 6px;
 
   @media (min-width: $tablet-width) {
     width: 428px;
+    height: 5px;
     border: 1px solid var(--basic-soft-gray);
     background-color: var(--basic-soft-gray);
     margin: 0 22px;
-
-    height: 5px;
   }
 
   @media (min-width: $desktop-width) {
-
     margin: 0 24px;
   }
 }
 
 .scale__bar::after {
   content: "";
-
   position: absolute;
   top: 3px;
   left: 5px;
@@ -56,12 +53,10 @@
   background-color: var(--basic-green);
   border: 1px solid var(--basic-green);
   border-radius: 6px;
-
   cursor: pointer;
 
   @media (min-width: $tablet-width) {
     content: "";
-
     position: absolute;
     top: -15px;
     left: 199px;
@@ -73,7 +68,6 @@
     border-radius: 50%;
     box-shadow: 0 0 2px 2px var(--basic-light-silver),
       0 1px 3px 0 rgba(0, 0, 0, 0.84);
-
     cursor: pointer;
   }
 }
@@ -91,12 +85,10 @@
 .scale__before,
 .scale__after {
   &:hover {
-
     border-bottom: 1px solid var(--basic-black);
   }
 
   &:active {
-
     border-bottom: none;
   }
 

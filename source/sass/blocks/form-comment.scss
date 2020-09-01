@@ -15,13 +15,12 @@
   margin-bottom: 34px;
 
   @media (min-width: $tablet-width) {
+    margin-bottom: 75px;
     font-size: 36px;
     line-height: 36px;
-    margin-bottom: 75px;
   }
 
   @media (min-width: $desktop-width) {
-
     margin-bottom: 77px;
   }
 }
@@ -38,7 +37,6 @@
   }
 
   @media (min-width: $desktop-width) {
-
     width: 70px;
   }
 }
@@ -71,6 +69,7 @@
 .form-comment__comment {
   width: 100%;
   min-height: 150px;
+  padding: 12px 12px 13px 15px;
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -78,11 +77,9 @@
   line-height: 18px;
   border: 1px solid var(--basic-lightest-gray);
   resize: none;
-  padding: 12px 12px 13px 15px;
   text-transform: uppercase;
 
   @media (min-width: $tablet-width) {
-
     font-size: 20px;
     line-height: 30px;
     padding: 9px 18px 9px 18px;

@@ -1,31 +1,31 @@
 .social {
-  min-width: 272px;
-  min-height: 62px;
-  list-style: none;
-  padding: 22px 53px;
-  padding-bottom: 18px;
-  padding-left: 55px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 0 auto;
   align-items: center;
+  min-width: 272px;
+  min-height: 62px;
+  padding: 22px 53px;
+  padding-bottom: 18px;
+  padding-left: 55px;
+  margin: 0 auto;
   border-bottom: 1px solid var(--basic-silver);
   border-top: 1px solid var(--basic-silver);
+  list-style: none;
 
   @media (min-width: $tablet-width) {
-    min-width: 129px;
-    border: none;
-    padding: 0;
-    padding-top: 6px;
     justify-content: space-between;
     align-items: center;
+    min-width: 129px;
+    padding: 0;
+    padding-top: 6px;
     margin: 0;
+    border: none;
   }
 
   @media (min-width: $desktop-width) {
-    border: none;
     margin: 0;
+    border: none;
   }
 }
 
@@ -70,7 +70,6 @@
 }
 
 .social__logo--facebook {
-
   width: 29px;
   height: 19px;
 

@@ -1,23 +1,23 @@
 .advantages {
   margin: 0;
-  list-style: none;
   padding: 0;
+  list-style: none;
 }
 
 .advantages__item {
+  position: relative;
   display: block;
-  background-position: top left;
-  background-size: 60px 60px;
   padding-left: 80px;
-  background-repeat: no-repeat;
   margin-bottom: 15px;
   min-height: 65px;
-  position: relative;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 60px 60px;
 
   @media (min-width: $tablet-width) {
-    margin-bottom: 37px;
     max-width: 250px;
     min-height: 280px;
+    margin-bottom: 37px;
     padding: 0;
   }
 
@@ -39,15 +39,14 @@
 }
 
 .advantages__item--leaf::before {
-
   content: "";
   left: 0;
 
   position: absolute;
   width: 60px;
   height: 60px;
-  background-color: var(--basic-green);
   border: 1px solid var(--basic-green);
+  background-color: var(--basic-green);
   background-image: url("../img/advantage-leaf@1x.svg");
   background-repeat: no-repeat;
   background-position: center;
