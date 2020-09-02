@@ -6,14 +6,13 @@
   padding-top: 16px;
 
   @media (min-width: $tablet-width) {
+    width: auto;
     margin-top: 0;
     margin-left: auto;
-    width: auto;
     padding-top: 5px;
   }
 
   @media (min-width: $desktop-width) {
-
     padding-top: 13px;
   }
 }
@@ -23,13 +22,12 @@
 }
 
 .copyright__text {
+  margin-right: auto;
   font-family: "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
-
-  margin-right: auto;
   color: var(--basic-special-gray);
 }
 

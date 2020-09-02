@@ -1,19 +1,18 @@
 .button {
+  display: block;
+  padding: 5px;
   color: var(--basic-white);
   background-color: var(--basic-green);
   text-align: center;
-  display: block;
-  padding: 5px;
   text-transform: uppercase;
 }
 
 .button--choose-program {
   position: absolute;
-  bottom: 0;
-  margin: 0 auto;
   width: 280px;
   height: 40px;
-
+  bottom: 0;
+  margin: 0 auto;
   padding: 7px 44px;
   padding-top: 21px;
 
@@ -34,12 +33,12 @@
 
   @media (min-width: $tablet-width) {
     position: relative;
+    width: 244px;
+    height: 54px;
     margin: 0;
     padding: 5px;
     padding-top: 27px;
     margin-left: 82px;
-    width: 244px;
-    height: 54px;
     font-family: "Oswald", "Arial", sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -50,16 +49,15 @@
 .button--order {
   min-width: 280px;
   min-height: 40px;
+  padding-top: 10px;
+  margin: 0;
+  margin-top: 6px;
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  padding-top: 10px;
-
   color: var(--basic-white);
-  margin: 0;
-  margin-top: 6px;
 
   &:hover {
     background-color: var(--basic-light-green);
@@ -86,21 +84,18 @@
 }
 
 .button--show {
-
   min-width: 279px;
   min-height: 40px;
-
+  padding-top: 20px;
+  padding-left: 9px;
+  margin-top: auto;
   background: var(--basic-gray);
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 0;
-  padding-top: 20px;
-  padding-left: 9px;
-
   color: var(--basic-special-gray);
-  margin-top: auto;
 
   &:hover {
     background-color: var(--basic-light-gray);
@@ -175,18 +170,17 @@
   }
 
   @media (min-width: $tablet-width) {
-
     margin-top: 14px;
   }
 
   @media (min-width: $desktop-width) {
     width: 244px;
     min-height: 40px;
+    margin: 0;
     font-family: "Oswald", "Arial", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 31px;
-    margin: 0;
   }
 }

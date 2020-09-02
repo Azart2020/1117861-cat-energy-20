@@ -3,7 +3,6 @@
   width: 320px;
   margin: 0 auto;
   position: relative;
-
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
@@ -40,10 +39,10 @@
 }
 
 .page__header {
-  margin: 0;
-  height: auto;
   display: flex;
   flex-direction: column;
+  height: auto;
+  margin: 0;
   background-color: var(--basic-white);
 
   @media (min-width: $tablet-width) {

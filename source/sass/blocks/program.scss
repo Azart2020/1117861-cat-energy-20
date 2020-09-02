@@ -1,30 +1,27 @@
 .program {
   margin: 0;
-  list-style: none;
   padding: 0;
+  list-style: none;
 }
 
 .program__title {
   margin: 0;
   margin-left: 37px;
-
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 37px;
-
   text-align: center;
   text-transform: uppercase;
-
   color: var(--basic-black);
 
   @media (min-width: $tablet-width) {
+    margin: 0;
     text-align: left;
     font-weight: normal;
     font-size: 36px;
     line-height: 36px;
-    margin: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -110,21 +107,21 @@
 
 
 .program__description {
-  border-bottom: 1px solid var(--basic-silver);
   margin: 0;
   margin-top: 30px;
   padding-bottom: 21px;
+  margin-bottom: 19px;
   font-family: "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
-  margin-bottom: 19px;
   color: var(--basic-special-gray);
+  border-bottom: 1px solid var(--basic-silver);
 
   @media (min-width: $tablet-width) {
     border: none;
-    margin-top: 26px;
+    margin-top: 25px;
     margin-bottom: 51px;
     padding: 0;
     font-family: "Arial", sans-serif;
@@ -146,16 +143,16 @@
 }
 
 .program__link {
+  position: relative;
   display: flex;
   align-items: center;
-  position: relative;
-  text-transform: uppercase;
-  color: var(--basic-black);
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 16px;
+  text-transform: uppercase;
+  color: var(--basic-black);
 
   &:active {
     color: transparentize(black, 0.7);
@@ -181,11 +178,11 @@
 .program__link::after {
   display: block;
   content: "";
-  background-image: url("../img/icon-right-arrow-long.svg");
-  background-repeat: no-repeat;
   width: 26px;
   height: 10px;
   margin-left: 18px;
+  background-image: url("../img/icon-right-arrow-long.svg");
+  background-repeat: no-repeat;
 
   @media (min-width: $tablet-width) {
     width: 26px;
@@ -195,6 +192,6 @@
 }
 
 .program__link:hover::after {
-  background-image: url("../img/icon-right-arrow-verylong.svg");
   width: 35px;
+  background-image: url("../img/icon-right-arrow-verylong.svg");
 }
