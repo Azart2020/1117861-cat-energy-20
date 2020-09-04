@@ -14,13 +14,12 @@
   bottom: 0;
   margin: 0 auto;
   padding: 7px 44px;
-  padding-top: 21px;
-
+  padding-top: 12px;
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 0px;
+  line-height: 18px;
 
   &:hover {
     background-color: var(--basic-light-green);
@@ -37,12 +36,17 @@
     height: 54px;
     margin: 0;
     padding: 5px;
-    padding-top: 27px;
     margin-left: 82px;
+    padding-top: 17px;
     font-family: "Oswald", "Arial", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 80px;
+    padding-top: 20px;
   }
 }
 
@@ -79,7 +83,7 @@
 
   @media (min-width: $desktop-width) {
     min-width: 168px;
-    padding-top: 10px;
+    padding-top: 11px;
   }
 }
 
@@ -114,6 +118,7 @@
   @media (min-width: $desktop-width) {
     min-width: 168px;
     margin-top: 62px;
+    padding-top: 21px;
   }
 }
 
@@ -177,10 +182,15 @@
     width: 244px;
     min-height: 40px;
     margin: 0;
+    padding-top: 5px;
     font-family: "Oswald", "Arial", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 31px;
+
+    @media (min-resolution: 2dppx) {
+      padding-top: 6px;
+    }
   }
 }

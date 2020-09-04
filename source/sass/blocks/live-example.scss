@@ -51,7 +51,7 @@
 
 .live-example__description {
   margin: 0;
-  padding-bottom: 24px;
+  padding-bottom: 25px;
   padding-right: 5px;
 
   font-family: "Arial", sans-serif;
@@ -72,7 +72,7 @@
 
   @media (min-width: $desktop-width) {
     padding: 0;
-    padding-bottom: 68px;
+    padding-bottom: 69px;
   }
 }
 
@@ -298,7 +298,7 @@
   }
 
   @media (min-width: $tablet-width) {
-    height: 521px;
+    height: 519px;
     width: 722px;
     margin-left: -100%;
     object-fit: contain;
