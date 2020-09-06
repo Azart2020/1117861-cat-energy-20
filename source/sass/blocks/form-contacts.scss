@@ -162,6 +162,10 @@
   }
 }
 
+.form-contacts__input:placeholder-shown {
+  border: 1px solid var(--basic-lightest-gray);
+}
+
 .form-contacts__wrapper {
   @media (min-width: $desktop-width) {
     display: flex;

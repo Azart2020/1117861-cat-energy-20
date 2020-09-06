@@ -3,11 +3,9 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  min-width: 272px;
+  min-width: 268px;
   min-height: 62px;
-  padding: 22px 53px;
-  padding-bottom: 18px;
-  padding-left: 55px;
+  padding: 23px 48px 18px 54px;
   margin: 0 auto;
   border-bottom: 1px solid var(--basic-silver);
   border-top: 1px solid var(--basic-silver);
@@ -16,7 +14,7 @@
   @media (min-width: $tablet-width) {
     justify-content: space-between;
     align-items: center;
-    min-width: 129px;
+    min-width: 130px;
     padding: 0;
     padding-top: 6px;
     margin: 0;
@@ -24,7 +22,10 @@
   }
 
   @media (min-width: $desktop-width) {
+    min-width: 131px;
     margin: 0;
+    padding: 0;
+    padding-top: 6px;
     border: none;
   }
 }
@@ -55,7 +56,7 @@
 }
 
 .social__logo--instagram {
-  width: 25px;
+  width: 17px;
   height: 17px;
 
   @media (min-width: $tablet-width) {
@@ -64,8 +65,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 25px;
-    height: 23px;
+    width: 22px;
+    height: 22px;
   }
 }
 

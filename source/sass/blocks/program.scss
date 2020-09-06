@@ -64,7 +64,7 @@
   background-repeat: no-repeat;
   background-size: 36px 50px, 50px 50px;
   background-position: 29px 21px, 22px 25px;
-  margin-bottom: 21px;
+  margin-bottom: 20px;
 
   @media (min-width: $tablet-width) {
 
@@ -75,9 +75,9 @@
   }
 
   @media (min-width: $desktop-width) {
-    background-position: 66px 44px, 54px 50px;
+    background-position: 65px 42px, 52px 47px;
     background-size: 73px 98px, 100px 100px;
-    padding: 80px 53px;
+    padding: 77px 53px;
     padding-bottom: 60px;
     margin: 0;
   }
@@ -98,9 +98,9 @@
   }
 
   @media (min-width: $desktop-width) {
-    background-position: 32px 69px, 52px 50px;
+    background-position: 32px 67px, 52px 50px;
     background-size: 135px 58px, 100px 100px;
-    padding: 80px 53px;
+    padding: 77px 53px;
     padding-bottom: 60px;
   }
 }
@@ -110,7 +110,7 @@
   margin: 0;
   margin-top: 30px;
   padding-bottom: 21px;
-  margin-bottom: 19px;
+  margin-bottom: 20px;
   font-family: "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
