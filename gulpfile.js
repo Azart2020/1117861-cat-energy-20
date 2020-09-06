@@ -82,7 +82,7 @@ exports.sprite = sprite;
 const jsmin = () => {
   return gulp.src("source/js/script.js")
     .pipe(uglify())
-    .pipe(gulp.dest("build"));
+    .pipe(gulp.dest("build/js"));
 };
 
 exports.jsmin = jsmin;
