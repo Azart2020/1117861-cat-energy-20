@@ -160,7 +160,8 @@
   &:invalid {
     background-image: url("../img/icon-phone-error.svg");
   }
-}.form-contacts__input:placeholder-shown {
+}
+.form-contacts__input:placeholder-shown {
   border: 1px solid var(--basic-lightest-gray);
 }
 
