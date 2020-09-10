@@ -4,12 +4,12 @@
 
   @media (min-width: $tablet-width) {
     padding: 0 calc((100% - 768px) / 2);
-    padding-top: 42px;
+    padding-top: 21px;
     padding-bottom: 76px;
   }
 
   @media (min-width: $desktop-width) {
-    padding: 51px 110px;
+    padding: 50px 110px;
     padding-bottom: 49px;
   }
 }
@@ -112,6 +112,12 @@
 }
 
 .catalog-additional__wrapper {
+  padding-bottom: 35px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+  }
+
   @media (min-width: $desktop-width) {
     display: flex;
     justify-content: space-between;

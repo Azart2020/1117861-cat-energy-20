@@ -73,7 +73,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding: 0 0 23px 80px;
+    padding: 0 0 20px 80px;
   }
 }
 
@@ -113,6 +113,7 @@
   }
 
   @media (min-width: $desktop-width) {
+    width: 940px;
     justify-content: start;
     padding: 0;
     background-color: transparent;
@@ -318,7 +319,7 @@
   @media (min-width: $desktop-width) {
     height: 516px;
     width: 722px;
-    margin-left: -144%;
+    margin-left: -162%;
     object-fit: contain;
     overflow: hidden;
   }
@@ -350,7 +351,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 52%;
+    width: 58%;
   }
 }
 

@@ -9,7 +9,6 @@
   @media (min-width: $desktop-width) {
     padding: 0 calc((100% - 1440px) / 2);
     padding-top: 20px;
-    padding-bottom: 53px;
   }
 }
 
@@ -29,7 +28,7 @@
 
   @media (min-width: $tablet-width) {
 
-    padding: 48px 0 165px;
+    padding: 28px 0 165px;
     margin: 0 30px;
     text-align: left;
     font-family: "Oswald", "Arial", sans-serif;
@@ -41,7 +40,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding-top: 64px;
+    padding-top: 44px;
+    padding-bottom: 166px;
     margin: 0 110px;
   }
 }
