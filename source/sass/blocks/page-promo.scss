@@ -4,9 +4,9 @@
   background-repeat: no-repeat;
   background-position: bottom 42px center, top center;
   height: 480px;
-  padding: 0 20px;
   position: relative;
   background-color: transparent;
+  padding: 0 calc((100% - 320px) / 2);
 
   @media (min-resolution: 2dppx) {
     background-image: url("../img/index-can-mobile@2x.png"),
@@ -20,7 +20,7 @@
 
   @media (min-width: $tablet-width) {
     min-height: 859px;
-    padding: 0 30px;
+    padding: 0 calc((100% - 768px) / 2);
     background-image: url("../img/index-can-tablet@1x.jpg");
     background-position: top 249px center, top center;
     background-color: var(--basic-white);
@@ -33,7 +33,7 @@
 
   @media (min-width: $desktop-width) {
     min-height: 516px;
-    padding: 0 110px;
+    padding: 0 calc((100% - 1440px) / 2);
     margin-bottom: 12px;
     background-image: none;
     background-color: transparent;
@@ -53,6 +53,7 @@
   text-align: center;
 
   @media (min-width: $tablet-width) {
+    margin: 0 30px;
     padding-top: 47px;
     padding-left: 88px;
     padding-right: 190px;
@@ -66,10 +67,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding-top: 56px;
-    padding-left: 81px;
-    padding-right: 565px;
-    padding-bottom: 39px;
+    margin: 0;
+    padding: 56px 712px 39px 189px;
   }
 }
 
@@ -85,7 +84,7 @@
 
   @media (min-width: $tablet-width) {
     padding-left: 89px;
-    margin: 0;
+    margin: 0 30px;
     margin-bottom: 49px;
     font-family: "Oswald", "Arial", sans-serif;
     font-style: normal;
@@ -98,6 +97,7 @@
 
   @media (min-width: $desktop-width) {
     margin-bottom: 52px;
-    padding-left: 80px;
+    margin-left: 0;
+    padding-left: 190px;
   }
 }

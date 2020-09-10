@@ -1,6 +1,6 @@
 .page {
   height: 100%;
-  width: 320px;
+  width: 100%;
   margin: 0 auto;
   position: relative;
   font-family: "Oswald", "Arial", sans-serif;
@@ -9,25 +9,15 @@
   font-weight: 400;
   color: var(--basic-special-gray);
   background-color: var(--basic-background-gray);
-
-
-  @media (min-width: $tablet-width) {
-    width: $tablet-width;
-  }
-
-  @media (min-width: $desktop-width) {
-    width: $desktop-width;
-  }
 }
 
 .page__wrapper {
   @media (min-width: $desktop-width) {
-    width: $desktop-width;
     background-image: url("../img/index-can-desktop@1x.png"),
       url("../img/index-background-desktop@1x.jpg"),
-      linear-gradient(90deg, var(--basic-white) 50%, var(--basic-green) 50%);
+      linear-gradient(90deg, var(--basic-white) 50%, var(--basic-green-dark) 50%);
     background-color: var(--basic-white);
-    background-position: top 135px right 330px, top -8px right, center;
+    background-position: top 135px right 453px, top -8px right 123px, center;
     background-repeat: no-repeat;
 
     @media (min-resolution: 2dppx) {
@@ -44,16 +34,17 @@
   height: auto;
   margin: 0;
   background-color: var(--basic-white);
+  padding: 0 calc((100% - 320px) / 2);
 
   @media (min-width: $tablet-width) {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
+    padding: 0 calc((100% - 768px) / 2);
   }
 
   @media (min-width: $desktop-width) {
-    padding: 52px 110px;
+    padding: 0 calc((100% - 1440px) / 2);
     background-color: transparent;
   }
 }
@@ -66,6 +57,6 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding: 0 110px;
+    padding: 0;
   }
 }

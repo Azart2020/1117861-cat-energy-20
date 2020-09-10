@@ -1,3 +1,7 @@
+.main-nav {
+  position: relative;
+}
+
 .main-nav__list {
   display: flex;
   flex-direction: column;
@@ -18,7 +22,7 @@
 
 .main-nav__toggle {
   position: absolute;
-  top: 27px;
+  top: -43px;
   right: 20px;
   z-index: 2;
   display: block;

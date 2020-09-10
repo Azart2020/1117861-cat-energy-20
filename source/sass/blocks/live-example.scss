@@ -1,8 +1,8 @@
 .live-example {
   margin: 0;
-  padding: 0 20px;
-  padding-bottom: 15px;
   background-color: var(--basic-light-silver);
+  padding: 0 calc((100% - 320px) / 2);
+  padding-bottom: 15px;
 
   @media (min-width: $tablet-width) {
     padding: 0;
@@ -14,7 +14,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 0 110px;
+    padding: 0 calc((100% - 1440px) / 2);
     padding-bottom: 2px;
     background: linear-gradient(180deg, var(--basic-white) 25%, var(--basic-gray) 25%);
     border-top: none;
@@ -34,6 +34,7 @@
   color: var(--bacic-black);
 
   @media (min-width: $tablet-width) {
+    padding: 0 calc((100% - 768px) / 2);
     padding-bottom: 64px;
     padding-top: 39px;
     font-family: "Oswald", "Arial", sans-serif;
@@ -46,6 +47,7 @@
   @media (min-width: $desktop-width) {
     padding-top: 18px;
     padding-bottom: 147px;
+    margin-left: 80px;
   }
 }
 
@@ -61,7 +63,7 @@
   line-height: 18px;
 
   @media (min-width: $tablet-width) {
-    padding-right: 7px;
+    padding: 0 calc((100% - 768px) / 2);
     padding-bottom: 53px;
     font-family: "Arial", sans-serif;
     font-style: normal;
@@ -71,8 +73,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding: 0;
-    padding-bottom: 69px;
+    padding: 0 0 23px 80px;
   }
 }
 
@@ -80,18 +81,20 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 0 20px;
 
   @media (min-width: $tablet-width) {
-    padding: 0 30px;
-    padding-bottom: 229px;
+    margin: 0 30px;
+    margin-bottom: 229px;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 450px;
+    width: 437px;
     padding: 0;
+    margin-bottom: 55px;
   }
 }
 
@@ -100,9 +103,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 0 20px;
 
   @media (min-width: $tablet-width) {
-    padding: 0 30px;
+    padding: 0 calc((100% - 768px) / 2);
+    margin: 0;
     padding-bottom: 1px;
     background-color: var(--basic-light-silver);
   }
@@ -132,6 +137,11 @@
 
   @media (min-width: $tablet-width) {
     flex-direction: row;
+    padding: 0 calc((100% - 768px) / 2);
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 81px;
   }
 }
 
@@ -299,7 +309,7 @@
 
   @media (min-width: $tablet-width) {
     height: 519px;
-    width: 722px;
+    width: 781px;
     margin-left: -100%;
     object-fit: contain;
     overflow: hidden;
@@ -308,7 +318,7 @@
   @media (min-width: $desktop-width) {
     height: 516px;
     width: 722px;
-    margin-left: -147%;
+    margin-left: -144%;
     object-fit: contain;
     overflow: hidden;
   }
@@ -317,7 +327,7 @@
 .live-example__boris--before {
   @media (min-width: $tablet-width) {
     height: 520px;
-    width: 726px;
+    width: 782px;
     margin: 0;
     object-fit: contain;
     overflow: hidden;
@@ -325,7 +335,7 @@
 
   @media (min-width: $desktop-width) {
     height: 518px;
-    width: 964px;
+    width: 1056px;
   }
 }
 
@@ -351,7 +361,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 27%;
+    width: 25%;
     overflow: hidden;
     text-align: right;
   }
