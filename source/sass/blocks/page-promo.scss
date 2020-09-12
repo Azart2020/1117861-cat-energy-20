@@ -1,8 +1,10 @@
 .page-promo {
   background-image: url("../img/index-can-mobile@1x.png"),
-    url("../img/index-background-mobile@1x.jpg");
+    url("../img/index-background-mobile@1x.jpg"),
+    linear-gradient(90deg, rgba(100, 168, 59, 1) 50%, rgba(99, 167, 58, 1) 50%);
   background-repeat: no-repeat;
-  background-position: bottom 42px center, top center;
+  background-position: bottom 42px center, top center, top;
+  background-size: auto, auto, 100% 64%;
   height: 480px;
   position: relative;
   background-color: transparent;
@@ -10,8 +12,9 @@
 
   @media (min-resolution: 2dppx) {
     background-image: url("../img/index-can-mobile@2x.png"),
-      url("../img/index-background-mobile@2x.jpg");
-    background-size: 280px 270px, 320px 305px;
+      url("../img/index-background-mobile@2x.jpg"),
+      linear-gradient(90deg, rgba(100, 168, 59, 1) 50%, rgba(99, 167, 58, 1) 50%);
+    background-size: 280px 270px, 320px 305px, 100% 64%;
   }
 
   @media (max-width: $mobile-width-only) {
